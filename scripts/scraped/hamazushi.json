@@ -1,0 +1,11 @@
+{
+  "chainId": "hamazushi",
+  "sourceUrl": "https://www.hama-sushi.co.jp/menu/",
+  "scrapeDate": "2026-03-31",
+  "fetchedAt": "2026-03-31T06:53:22.328Z",
+  "status": "failed",
+  "notes": [
+    "メニュー一覧/詳細から価格・栄養テキストを含むカードを抽出できませんでした。"
+  ],
+  "items": []
+}

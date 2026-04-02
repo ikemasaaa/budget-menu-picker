@@ -1,0 +1,19 @@
+{
+  "name": "budget-menu-picker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "merge:scraped": "node scripts/merge-playwright-scrapes.ts",
+    "scrape:saizeriya": "node scripts/scrape-saizeriya.ts",
+    "scrape:kurasushi": "node scripts/scrape-kurasushi.ts",
+    "scrape:hamazushi": "node scripts/scrape-hamazushi.ts",
+    "test": "node --test tests/search.test.ts",
+    "start": "python3 -m http.server 4173 -d dist"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.58.2"
+  }
+}

@@ -1,0 +1,1450 @@
+{
+  "chainId": "kurasushi",
+  "sourceUrl": "https://www.kurasushi.co.jp/menu/",
+  "scrapeDate": "2026-03-31",
+  "fetchedAt": "2026-03-31T08:23:30.618Z",
+  "status": "partial",
+  "notes": [],
+  "items": [
+    {
+      "name": "なす旨煮",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "なす旨煮 115円 96kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ねぎまぐろ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "ねぎまぐろ 115円 99kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "大盛り貝柱",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "大盛り貝柱 115円 79kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "赤貝",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "赤貝 115円 68kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ゆず塩かつおたたき",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "ゆず塩かつおたたき 115円 89kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "サーモン",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "サーモン 115円 93kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えび",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "えび 115円 74kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "生えび",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "生えび 115円 78kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "活〆パンガシウス",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "活〆パンガシウス 115円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ゆずかれい",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "ゆずかれい 115円 90kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "牛すき焼き風",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "牛すき焼き風 115円 126kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "まぐろアボカドチーズ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "まぐろアボカドチーズ 115円 125kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "サーモンアボカドチーズ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "サーモンアボカドチーズ 115円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "大葉いか",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "大葉いか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "いか",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "いか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "やりいか",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "やりいか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あなご",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "あなご 115円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "たまご焼き",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "たまご焼き 115円 114kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "極旨カニカマ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "極旨カニカマ 115円 84kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "旨だれ牛カルビ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "旨だれ牛カルビ 115円 102kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ハンバーグ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "ハンバーグ 115円 111kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "イベリコ豚の大とろ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "イベリコ豚の大とろ 115円 115kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "熟成まぐろ",
+      "price": 120,
+      "calories": null,
+      "protein": null,
+      "rawText": "熟成まぐろ 120円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "真いわし",
+      "price": 120,
+      "calories": null,
+      "protein": null,
+      "rawText": "真いわし 120円 108kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "熟成漬けまぐろ",
+      "price": 130,
+      "calories": null,
+      "protein": null,
+      "rawText": "熟成漬けまぐろ 130円 85kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "肉厚とろ〆さば",
+      "price": 130,
+      "calories": null,
+      "protein": null,
+      "rawText": "肉厚とろ〆さば 130円 151kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ビントロ",
+      "price": 140,
+      "calories": null,
+      "protein": null,
+      "rawText": "ビントロ 140円 83kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "はまち",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "はまち 160円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "オニオンサーモン",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "オニオンサーモン 160円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えびアボカド",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "えびアボカド 160円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "いか天にぎり",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "いか天にぎり 160円 201kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あぶりえびマヨグラタン風",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "あぶりえびマヨグラタン風 180円 186kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あぶりチーズ豚カルビ",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "あぶりチーズ豚カルビ 180円 146kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あぶりえびチーズ",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "あぶりえびチーズ 180円 97kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あぶりチーズサーモン",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "あぶりチーズサーモン 180円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えび天にぎり",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "えび天にぎり 180円 135kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "濃厚チェダーチーズ天にぎり",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "濃厚チェダーチーズ天にぎり 180円 167kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "大葉えんがわ（かれい）",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "大葉えんがわ（かれい） 180円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えんがわ（かれい）",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "えんがわ（かれい） 180円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "大葉生たこ",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "大葉生たこ 180円 71kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "生たこ",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "生たこ 180円 71kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あじ",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "あじ 200円 85kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "焼きはらす",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "焼きはらす 200円 91kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "とろサーモン",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "とろサーモン 200円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "真たこ",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "真たこ 200円 76kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "つぶ貝",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "つぶ貝 200円 69kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "活〆真鯛湯引き",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "活〆真鯛湯引き 250円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ぶり照りにぎり",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "ぶり照りにぎり 250円 151kcal 【提供エリア】 東日本 【お持ち帰り】 可 ※シャリハーフ非対応",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "熟成　真鯛",
+      "price": 300,
+      "calories": null,
+      "protein": null,
+      "rawText": "熟成 真鯛 300円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "梟谷学園高校の倍カルビ！辛子マヨ",
+      "price": 350,
+      "calories": null,
+      "protein": null,
+      "rawText": "梟谷学園高校の倍カルビ！辛子マヨ 350円 168kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "贅沢かに盛り合わせ",
+      "price": 1840,
+      "calories": null,
+      "protein": null,
+      "rawText": "贅沢かに盛り合わせ 1840円 297kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 ※本ズワイガニ棒肉(生)・本ズワイガニ開き(二貫)・本ズワイガニ爪下(二貫)・本ズワイガニかに身(生)・かに身・かに身かに味噌和え",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "超熟成 まぐろ（一貫）",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "超熟成 まぐろ（一貫） 115円 49kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "超熟成　まふぐ(一貫)",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "超熟成 まふぐ(一貫) 115円 36kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "超熟成 真鯛（一貫）",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "超熟成 真鯛（一貫） 115円 43kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "特上まぐろ（一貫）",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "特上まぐろ（一貫） 115円 64kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "特上漬けまぐろ（一貫）",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "特上漬けまぐろ（一貫） 115円 67kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "熟成ふぐ（一貫）",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "熟成ふぐ（一貫） 115円 39kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "大切り　はまち(一貫)",
+      "price": 120,
+      "calories": null,
+      "protein": null,
+      "rawText": "大切り はまち(一貫) 120円 60kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "生サーモン(一貫)",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "生サーモン(一貫) 160円 49kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "赤えび（一貫）",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "赤えび（一貫） 180円 46kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "熟成中とろ（一貫）",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "熟成中とろ（一貫） 200円 72kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "大粒貝柱（一貫）",
+      "price": 270,
+      "calories": null,
+      "protein": null,
+      "rawText": "大粒貝柱（一貫） 270円 51kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "特大切りうなぎ（一貫）",
+      "price": 270,
+      "calories": null,
+      "protein": null,
+      "rawText": "特大切りうなぎ（一貫） 270円 109kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "特大切り　活〆穴子（一貫）",
+      "price": 270,
+      "calories": null,
+      "protein": null,
+      "rawText": "特大切り 活〆穴子（一貫） 270円 64kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "本ズワイガニ大(一貫)",
+      "price": 300,
+      "calories": null,
+      "protein": null,
+      "rawText": "本ズワイガニ大(一貫) 300円 42kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "特大生ズワイガニ(一貫)",
+      "price": 380,
+      "calories": null,
+      "protein": null,
+      "rawText": "特大生ズワイガニ(一貫) 380円 39kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "熟成大とろ（一貫）",
+      "price": 380,
+      "calories": null,
+      "protein": null,
+      "rawText": "熟成大とろ（一貫） 380円 77kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "かにサラダ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "かにサラダ 115円 127kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "海鮮ユッケ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "海鮮ユッケ 115円 122kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "チャンジャ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "チャンジャ 115円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "たらマヨ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "たらマヨ 115円 127kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "まぐたく",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "まぐたく 115円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "かずのこ軍艦",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "かずのこ軍艦 115円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "旨だれまぐろ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "旨だれまぐろ 115円 107kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "まぐろ納豆",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "まぐろ納豆 115円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "いかおくら",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "いかおくら 115円 87kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ほたてひもピリ辛わさび",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "ほたてひもピリ辛わさび 115円 88kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ねぎまぐろ軍艦",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "ねぎまぐろ軍艦 115円 115kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "コーン",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "コーン 115円 169kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "照り焼きチキン",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "照り焼きチキン 115円 139kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "納豆",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "納豆 115円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えびマヨ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "えびマヨ 115円 182kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "サラダ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "サラダ 115円 178kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ツナサラダ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "ツナサラダ 115円 163kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "シーフードサラダ",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "シーフードサラダ 115円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "納豆一本巻",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "納豆一本巻 115円 160kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "きゅうり巻",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "きゅうり巻 115円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "しんこ巻",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "しんこ巻 115円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "かんぴょう巻",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "かんぴょう巻 115円 149kcal 【提供エリア】 東日本 【お持ち帰り】 可 ※一部の店舗では販売しておりません。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "いなり",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "いなり 115円 117kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "甘えびマヨ",
+      "price": 120,
+      "calories": null,
+      "protein": null,
+      "rawText": "甘えびマヨ 120円 111kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ねぎまぐろ鉄火",
+      "price": 130,
+      "calories": null,
+      "protein": null,
+      "rawText": "ねぎまぐろ鉄火 130円 155kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "まぐろユッケ",
+      "price": 140,
+      "calories": null,
+      "protein": null,
+      "rawText": "まぐろユッケ 140円 142kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "かにマヨ",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "かにマヨ 160円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "かにみそ",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "かにみそ 160円 86kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "うな玉",
+      "price": 160,
+      "calories": null,
+      "protein": null,
+      "rawText": "うな玉 160円 129kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えび天手巻き（一貫）",
+      "price": 180,
+      "calories": null,
+      "protein": null,
+      "rawText": "えび天手巻き（一貫） 180円 113kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "鉄火巻",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "鉄火巻 200円 136kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "海鮮うに手巻き（一貫）",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "海鮮うに手巻き（一貫） 200円 47kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "かにユッケ",
+      "price": 230,
+      "calories": null,
+      "protein": null,
+      "rawText": "かにユッケ 230円 112kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "いくら",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "いくら 250円 93kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "まぐろマウンテン",
+      "price": 300,
+      "calories": null,
+      "protein": null,
+      "rawText": "まぐろマウンテン 300円 137kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "サーモンマウンテン",
+      "price": 300,
+      "calories": null,
+      "protein": null,
+      "rawText": "サーモンマウンテン 300円 151kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "稲荷崎高校のトロたく手巻き",
+      "price": 400,
+      "calories": null,
+      "protein": null,
+      "rawText": "稲荷崎高校のトロたく手巻き 400円 95kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "旬の海鮮丼　平日限定17時まで",
+      "price": 660,
+      "calories": null,
+      "protein": null,
+      "rawText": "旬の海鮮丼 平日限定17時まで 660円 462kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。丼の詳細はこちら Language 1 2 3 4 価格別メニューのご案内 一皿115円〜店舗 一皿120円〜店舗 一皿130円〜店舗 一皿150円〜店舗 ［一皿115円〜店舗］メニューのご案内 にぎり にぎり一貫 ぐんかん・細巻 サイドメニュー デザート にぎり なす旨煮 115円 96kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ねぎまぐろ 115円 99kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 大盛り貝柱 115円 79kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 赤貝 115円 68kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ゆず塩かつおたたき 115円 89kcal 【提供エリア】 全店舗 【お持ち帰り】 可 サーモン 115円 93kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えび 115円 74kcal 【提供エリア】 全店舗 【お持ち帰り】 可 生えび 115円 78kcal 【提供エリア】 全店舗 【お持ち帰り】 可 活〆パンガシウス 115円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ゆずかれい 115円 90kcal 【提供エリア】 全店舗 【お持ち帰り】 可 牛すき焼き風 115円 126kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 まぐろアボカドチーズ 115円 125kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 サーモンアボカドチーズ 115円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 大葉いか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 いか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 可 やりいか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 あなご 115円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可 たまご焼き 115円 114kcal 【提供エリア】 全店舗 【お持ち帰り】 可 極旨カニカマ 115円 84kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 旨だれ牛カルビ 115円 102kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ハンバーグ 115円 111kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 イベリコ豚の大とろ 115円 115kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成まぐろ 120円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可 真いわし 120円 108kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成漬けまぐろ 130円 85kcal 【提供エリア】 全店舗 【お持ち帰り】 可 肉厚とろ〆さば 130円 151kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 ビントロ 140円 83kcal 【提供エリア】 全店舗 【お持ち帰り】 可 はまち 160円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。 オニオンサーモン 160円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えびアボカド 160円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 いか天にぎり 160円 201kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 あぶりえびマヨグラタン風 180円 186kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 あぶりチーズ豚カルビ 180円 146kcal 【提供エリア】 全店舗 【お持ち帰り】 可 あぶりえびチーズ 180円 97kcal 【提供エリア】 全店舗 【お持ち帰り】 可 あぶりチーズサーモン 180円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えび天にぎり 180円 135kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 濃厚チェダーチーズ天にぎり 180円 167kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 大葉えんがわ（かれい） 180円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 えんがわ（かれい） 180円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大葉生たこ 180円 71kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 生たこ 180円 71kcal 【提供エリア】 全店舗 【お持ち帰り】 可 あじ 200円 85kcal 【提供エリア】 全店舗 【お持ち帰り】 可 焼きはらす 200円 91kcal 【提供エリア】 全店舗 【お持ち帰り】 可 とろサーモン 200円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可 真たこ 200円 76kcal 【提供エリア】 全店舗 【お持ち帰り】 可 つぶ貝 200円 69kcal 【提供エリア】 全店舗 【お持ち帰り】 可 活〆真鯛湯引き 250円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ぶり照りにぎり 250円 151kcal 【提供エリア】 東日本 【お持ち帰り】 可 ※シャリハーフ非対応 熟成 真鯛 300円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可 梟谷学園高校の倍カルビ！辛子マヨ 350円 168kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 贅沢かに盛り合わせ 1840円 297kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 ※本ズワイガニ棒肉(生)・本ズワイガニ開き(二貫)・本ズワイガニ爪下(二貫)・本ズワイガニかに身(生)・かに身・かに身かに味噌和え にぎり一貫 超熟成 まぐろ（一貫） 115円 49kcal 【提供エリア】 全店舗 【お持ち帰り】 可 超熟成 まふぐ(一貫) 115円 36kcal 【提供エリア】 全店舗 【お持ち帰り】 可 超熟成 真鯛（一貫） 115円 43kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特上まぐろ（一貫） 115円 64kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特上漬けまぐろ（一貫） 115円 67kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成ふぐ（一貫） 115円 39kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大切り はまち(一貫) 120円 60kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。 生サーモン(一貫) 160円 49kcal 【提供エリア】 全店舗 【お持ち帰り】 可 赤えび（一貫） 180円 46kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成中とろ（一貫） 200円 72kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大粒貝柱（一貫） 270円 51kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特大切りうなぎ（一貫） 270円 109kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特大切り 活〆穴子（一貫） 270円 64kcal 【提供エリア】 全店舗 【お持ち帰り】 可 本ズワイガニ大(一貫) 300円 42kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特大生ズワイガニ(一貫) 380円 39kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成大とろ（一貫） 380円 77kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ぐんかん・細巻 かにサラダ 115円 127kcal 【提供エリア】 全店舗 【お持ち帰り】 可 海鮮ユッケ 115円 122kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 チャンジャ 115円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可 たらマヨ 115円 127kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐたく 115円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可 かずのこ軍艦 115円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可 旨だれまぐろ 115円 107kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐろ納豆 115円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 いかおくら 115円 87kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ほたてひもピリ辛わさび 115円 88kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ねぎまぐろ軍艦 115円 115kcal 【提供エリア】 全店舗 【お持ち帰り】 可 コーン 115円 169kcal 【提供エリア】 全店舗 【お持ち帰り】 可 照り焼きチキン 115円 139kcal 【提供エリア】 全店舗 【お持ち帰り】 可 納豆 115円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えびマヨ 115円 182kcal 【提供エリア】 全店舗 【お持ち帰り】 可 サラダ 115円 178kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ツナサラダ 115円 163kcal 【提供エリア】 全店舗 【お持ち帰り】 可 シーフードサラダ 115円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 可 納豆一本巻 115円 160kcal 【提供エリア】 全店舗 【お持ち帰り】 可 きゅうり巻 115円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可 しんこ巻 115円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 可 かんぴょう巻 115円 149kcal 【提供エリア】 東日本 【お持ち帰り】 可 ※一部の店舗では販売しておりません。 いなり 115円 117kcal 【提供エリア】 全店舗 【お持ち帰り】 可 甘えびマヨ 120円 111kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ねぎまぐろ鉄火 130円 155kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐろユッケ 140円 142kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 かにマヨ 160円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可 かにみそ 160円 86kcal 【提供エリア】 全店舗 【お持ち帰り】 可 うな玉 160円 129kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 えび天手巻き（一貫） 180円 113kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 鉄火巻 200円 136kcal 【提供エリア】 全店舗 【お持ち帰り】 可 海鮮うに手巻き（一貫） 200円 47kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 かにユッケ 230円 112kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 いくら 250円 93kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐろマウンテン 300円 137kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サーモンマウンテン 300円 151kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 稲荷崎高校のトロたく手巻き 400円 95kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サイドメニュー 旬の海鮮丼 平日限定17時まで 660円 462kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。丼の詳細はこちら えび天と季節の天丼 平日限定17時まで 720円 730kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※白身魚天※白米かシャリのどちらかをお選びいただけます。※白米(200g 718kcal)、シャリ(180g 730kcal)とお米の量が異なります。※一部の店舗では販売しておりません。 丼の詳細はこちら ビッくらポン！Ⓡ厳選6貫セット 790円 263kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 ※熟成まぐろ・ビントロ・サーモン・はまち・いか・えび（場合により商品の内容が異なります） 7種の魚介 醤油らーめん 540円 286kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 7種の魚介 濃厚味噌らーめん 540円 285kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 胡麻香る担々麺 540円 423kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サバ白湯らーめん 680円 344kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 天然だしうどん 250円 227kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 きつねうどん 500円 292kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えび天うどん 530円 274kcal 【提供エリア】 全店舗 【お持ち帰り】 可 【讃岐】釜玉うどん 600円 281kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 【讃岐】ちく天ぶっかけうどん（冷） 600円 368kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 純味噌汁 210円 32kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可 純赤だし 210円 43kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「純味噌汁」の提供となります。 あさり入り 味噌汁 280円 42kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可 ※一部店舗では内容が異なります。 あさり入り 赤だし 280円 52kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「あさり入り味噌汁」の提供となります。 ※一部店舗では内容が異なります。 あおさ入り 味噌汁 280円 51kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可 あおさ入り 赤だし 280円 62kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「あおさ入り味噌汁」の提供となります。 くら出汁 170円 20kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※お持ち帰りはカップでのご提供となります。 熟成まぐろ(シャリなし) 200円 37kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サーモン(シャリなし) 200円 54kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ゆず塩かつおたたき(シャリなし) 200円 48kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 特製茶碗蒸し 250円 67kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※時期により茶碗蒸しの中の具材が異なります。 フカヒレあんかけ茶碗蒸し 430円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ロパビエハ 240円 54kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 えびブロッコリーサラダ 250円 100kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらポテトミニ ガーリックバター 400円 281kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらポテト 460円 396kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※ケチャップはついておりません。 焼きとうもろこし 115円 142kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※２個 ミニころチキン 170円 149kcal 【提供エリア】 全店舗 【お持ち帰り】 可 オニオンリング 190円 103kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 とうもろこしのかき揚げ 190円 194kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 なんこつ唐揚げ 280円 150kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ポップコーンシュリンプ風 280円 313kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 チーズフライ 330円 350kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※３個 ザクザク唐揚げ 460円 368kcal 【提供エリア】 全店舗 【お持ち帰り】 可 スーパードライ(生) 630円 160kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※沖縄県ではオリオンドラフト〈生ビール〉の提供となります。 マルエフ(生) 630円 156kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ノンアルコールビール 500円 27kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 冷酒無添蔵 690円 200kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では提供方法が異なります。 春鹿 純米 超辛口 780円 193kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ハイボール 530円 69kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では販売しておりません。 デザート 春いちごパフェ 480円 330kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 白玉クリームあんみつ 420円 321kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 音駒高校のキャラメルアップルパフェ 430円 206kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 烏野高校のオレンジコーラ 530円 199kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 クリームチーズケーキ ～ナッツ・ドライフルーツ入り～ 330円 170kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※はちみつを使用しております。 干し柿のパウンドケーキ 360円 183kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ５種のサクもちボール 380円 407kcal 【提供エリア】 全店舗 【お持ち帰り】 可 感動のぷりん 240円 197kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 コーヒータルト 240円 214kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 カットパイン 220円 43kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 完熟アップルマンゴー 440円 88kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ミルキーミルクレープ 330円 272kcal 【提供エリア】 西日本・九州 【お持ち帰り】 可 ミルクレープ 330円 230kcal 【提供エリア】 東日本 【お持ち帰り】 可 チョコケーキ 200円 107kcal 【提供エリア】 全店舗 【お持ち帰り】 可 チーズケーキ 200円 81kcal 【提供エリア】 全店舗 【お持ち帰り】 可 プリンタルト 200円 156kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大学芋スティック 140円 138kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では内容が異なります。 京わらびもち 140円 168kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらだんご みたらし 170円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらだんご 抹茶 250円 194kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 濃厚バニラアイス 210円 77kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 チョコアイス 210円 42kcal 【提供エリア】 全店舗 【お持ち帰り】 可 巨峰シャーベット 210円 53kcal 【提供エリア】 全店舗 【お持ち帰り】 可 【無添】コーラ 250円 108kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 ぶどうサイダー 250円 62kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 めろんサイダー 250円 112kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 オレンジ 250円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 りんご 250円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 宇治抹茶入り緑茶 170円 3kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 乳酸菌ウォーター 170円 76kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 プレミアホット珈琲 190円 28kcal 【提供エリア】 全店舗 【お持ち帰り】 可 プレミアアイス珈琲 190円 36kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 プレミアホットラテ 220円 83kcal 【提供エリア】 全店舗 【お持ち帰り】 可 プレミアアイスラテ 220円 92kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 全国 東日本 西日本 九州・沖縄 該当店舗はこちら 該当店舗はこちら 該当店舗はこちら 該当店舗はこちら ※ 一部の店舗では価格が異なります。 ※ 売り切れによりご提供できないメニューがある場合がございます。予めご了承ください。 アレルゲン・カロリー情報 原材料・原産地情報 無添蔵 メニューはこちら 公式サイト おすすめ情報 店舗検索 メニュー お持ち帰り寿司 くら寿司プレスリリース 企業サイト 会社案内 IR情報 CSR活動 採用情報 アルバイト・パート募集 法人お取引窓口 Globalサイト KURA Sushi USA, Inc. 亞洲藏壽司股份有限公司 店舗用地募集 ご当地食材募集 お問い合わせ メディア取材・撮影申し込み プライバシーポリシー ソーシャルメディアポリシー 店内での撮影およびSNS投稿について アレルギー・原材料・原産地情報 くら寿司公式SNSで最新情報を配信中 ソーシャルメディアポリシー Copyright Kura Sushi, Inc. All Rights Reserved. ページトップへ",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えび天と季節の天丼　平日限定17時まで",
+      "price": 720,
+      "calories": null,
+      "protein": null,
+      "rawText": "えび天と季節の天丼 平日限定17時まで 720円 730kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※白身魚天※白米かシャリのどちらかをお選びいただけます。※白米(200g 718kcal)、シャリ(180g 730kcal)とお米の量が異なります。※一部の店舗では販売しておりません。 丼の詳細はこちら Language 1 2 3 4 価格別メニューのご案内 一皿115円〜店舗 一皿120円〜店舗 一皿130円〜店舗 一皿150円〜店舗 ［一皿115円〜店舗］メニューのご案内 にぎり にぎり一貫 ぐんかん・細巻 サイドメニュー デザート にぎり なす旨煮 115円 96kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ねぎまぐろ 115円 99kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 大盛り貝柱 115円 79kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 赤貝 115円 68kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ゆず塩かつおたたき 115円 89kcal 【提供エリア】 全店舗 【お持ち帰り】 可 サーモン 115円 93kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えび 115円 74kcal 【提供エリア】 全店舗 【お持ち帰り】 可 生えび 115円 78kcal 【提供エリア】 全店舗 【お持ち帰り】 可 活〆パンガシウス 115円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ゆずかれい 115円 90kcal 【提供エリア】 全店舗 【お持ち帰り】 可 牛すき焼き風 115円 126kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 まぐろアボカドチーズ 115円 125kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 サーモンアボカドチーズ 115円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 大葉いか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 いか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 可 やりいか 115円 73kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 あなご 115円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可 たまご焼き 115円 114kcal 【提供エリア】 全店舗 【お持ち帰り】 可 極旨カニカマ 115円 84kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 旨だれ牛カルビ 115円 102kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ハンバーグ 115円 111kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 イベリコ豚の大とろ 115円 115kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成まぐろ 120円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可 真いわし 120円 108kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成漬けまぐろ 130円 85kcal 【提供エリア】 全店舗 【お持ち帰り】 可 肉厚とろ〆さば 130円 151kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 ビントロ 140円 83kcal 【提供エリア】 全店舗 【お持ち帰り】 可 はまち 160円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。 オニオンサーモン 160円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えびアボカド 160円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※シャリハーフ非対応。 いか天にぎり 160円 201kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 あぶりえびマヨグラタン風 180円 186kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 あぶりチーズ豚カルビ 180円 146kcal 【提供エリア】 全店舗 【お持ち帰り】 可 あぶりえびチーズ 180円 97kcal 【提供エリア】 全店舗 【お持ち帰り】 可 あぶりチーズサーモン 180円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えび天にぎり 180円 135kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 濃厚チェダーチーズ天にぎり 180円 167kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 大葉えんがわ（かれい） 180円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 えんがわ（かれい） 180円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大葉生たこ 180円 71kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 生たこ 180円 71kcal 【提供エリア】 全店舗 【お持ち帰り】 可 あじ 200円 85kcal 【提供エリア】 全店舗 【お持ち帰り】 可 焼きはらす 200円 91kcal 【提供エリア】 全店舗 【お持ち帰り】 可 とろサーモン 200円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可 真たこ 200円 76kcal 【提供エリア】 全店舗 【お持ち帰り】 可 つぶ貝 200円 69kcal 【提供エリア】 全店舗 【お持ち帰り】 可 活〆真鯛湯引き 250円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ぶり照りにぎり 250円 151kcal 【提供エリア】 東日本 【お持ち帰り】 可 ※シャリハーフ非対応 熟成 真鯛 300円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可 梟谷学園高校の倍カルビ！辛子マヨ 350円 168kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 贅沢かに盛り合わせ 1840円 297kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 ※本ズワイガニ棒肉(生)・本ズワイガニ開き(二貫)・本ズワイガニ爪下(二貫)・本ズワイガニかに身(生)・かに身・かに身かに味噌和え にぎり一貫 超熟成 まぐろ（一貫） 115円 49kcal 【提供エリア】 全店舗 【お持ち帰り】 可 超熟成 まふぐ(一貫) 115円 36kcal 【提供エリア】 全店舗 【お持ち帰り】 可 超熟成 真鯛（一貫） 115円 43kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特上まぐろ（一貫） 115円 64kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特上漬けまぐろ（一貫） 115円 67kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成ふぐ（一貫） 115円 39kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大切り はまち(一貫) 120円 60kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。 生サーモン(一貫) 160円 49kcal 【提供エリア】 全店舗 【お持ち帰り】 可 赤えび（一貫） 180円 46kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成中とろ（一貫） 200円 72kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大粒貝柱（一貫） 270円 51kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特大切りうなぎ（一貫） 270円 109kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特大切り 活〆穴子（一貫） 270円 64kcal 【提供エリア】 全店舗 【お持ち帰り】 可 本ズワイガニ大(一貫) 300円 42kcal 【提供エリア】 全店舗 【お持ち帰り】 可 特大生ズワイガニ(一貫) 380円 39kcal 【提供エリア】 全店舗 【お持ち帰り】 可 熟成大とろ（一貫） 380円 77kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ぐんかん・細巻 かにサラダ 115円 127kcal 【提供エリア】 全店舗 【お持ち帰り】 可 海鮮ユッケ 115円 122kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 チャンジャ 115円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可 たらマヨ 115円 127kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐたく 115円 98kcal 【提供エリア】 全店舗 【お持ち帰り】 可 かずのこ軍艦 115円 94kcal 【提供エリア】 全店舗 【お持ち帰り】 可 旨だれまぐろ 115円 107kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐろ納豆 115円 118kcal 【提供エリア】 全店舗 【お持ち帰り】 可 いかおくら 115円 87kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ほたてひもピリ辛わさび 115円 88kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ねぎまぐろ軍艦 115円 115kcal 【提供エリア】 全店舗 【お持ち帰り】 可 コーン 115円 169kcal 【提供エリア】 全店舗 【お持ち帰り】 可 照り焼きチキン 115円 139kcal 【提供エリア】 全店舗 【お持ち帰り】 可 納豆 115円 116kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えびマヨ 115円 182kcal 【提供エリア】 全店舗 【お持ち帰り】 可 サラダ 115円 178kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ツナサラダ 115円 163kcal 【提供エリア】 全店舗 【お持ち帰り】 可 シーフードサラダ 115円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 可 納豆一本巻 115円 160kcal 【提供エリア】 全店舗 【お持ち帰り】 可 きゅうり巻 115円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可 しんこ巻 115円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 可 かんぴょう巻 115円 149kcal 【提供エリア】 東日本 【お持ち帰り】 可 ※一部の店舗では販売しておりません。 いなり 115円 117kcal 【提供エリア】 全店舗 【お持ち帰り】 可 甘えびマヨ 120円 111kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ねぎまぐろ鉄火 130円 155kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐろユッケ 140円 142kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 かにマヨ 160円 120kcal 【提供エリア】 全店舗 【お持ち帰り】 可 かにみそ 160円 86kcal 【提供エリア】 全店舗 【お持ち帰り】 可 うな玉 160円 129kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 えび天手巻き（一貫） 180円 113kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 鉄火巻 200円 136kcal 【提供エリア】 全店舗 【お持ち帰り】 可 海鮮うに手巻き（一貫） 200円 47kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 かにユッケ 230円 112kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※食材の入荷状況により休止する場合がございます。 いくら 250円 93kcal 【提供エリア】 全店舗 【お持ち帰り】 可 まぐろマウンテン 300円 137kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サーモンマウンテン 300円 151kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 稲荷崎高校のトロたく手巻き 400円 95kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サイドメニュー 旬の海鮮丼 平日限定17時まで 660円 462kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※一部の店舗では販売しておりません。丼の詳細はこちら えび天と季節の天丼 平日限定17時まで 720円 730kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※白身魚天※白米かシャリのどちらかをお選びいただけます。※白米(200g 718kcal)、シャリ(180g 730kcal)とお米の量が異なります。※一部の店舗では販売しておりません。 丼の詳細はこちら ビッくらポン！Ⓡ厳選6貫セット 790円 263kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 ※熟成まぐろ・ビントロ・サーモン・はまち・いか・えび（場合により商品の内容が異なります） 7種の魚介 醤油らーめん 540円 286kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 7種の魚介 濃厚味噌らーめん 540円 285kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 胡麻香る担々麺 540円 423kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サバ白湯らーめん 680円 344kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 天然だしうどん 250円 227kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 きつねうどん 500円 292kcal 【提供エリア】 全店舗 【お持ち帰り】 可 えび天うどん 530円 274kcal 【提供エリア】 全店舗 【お持ち帰り】 可 【讃岐】釜玉うどん 600円 281kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 【讃岐】ちく天ぶっかけうどん（冷） 600円 368kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 純味噌汁 210円 32kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可 純赤だし 210円 43kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「純味噌汁」の提供となります。 あさり入り 味噌汁 280円 42kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可 ※一部店舗では内容が異なります。 あさり入り 赤だし 280円 52kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「あさり入り味噌汁」の提供となります。 ※一部店舗では内容が異なります。 あおさ入り 味噌汁 280円 51kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可 あおさ入り 赤だし 280円 62kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「あおさ入り味噌汁」の提供となります。 くら出汁 170円 20kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※お持ち帰りはカップでのご提供となります。 熟成まぐろ(シャリなし) 200円 37kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 サーモン(シャリなし) 200円 54kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ゆず塩かつおたたき(シャリなし) 200円 48kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 特製茶碗蒸し 250円 67kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※時期により茶碗蒸しの中の具材が異なります。 フカヒレあんかけ茶碗蒸し 430円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ロパビエハ 240円 54kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 えびブロッコリーサラダ 250円 100kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらポテトミニ ガーリックバター 400円 281kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらポテト 460円 396kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※ケチャップはついておりません。 焼きとうもろこし 115円 142kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※２個 ミニころチキン 170円 149kcal 【提供エリア】 全店舗 【お持ち帰り】 可 オニオンリング 190円 103kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 とうもろこしのかき揚げ 190円 194kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 なんこつ唐揚げ 280円 150kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ポップコーンシュリンプ風 280円 313kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 チーズフライ 330円 350kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※３個 ザクザク唐揚げ 460円 368kcal 【提供エリア】 全店舗 【お持ち帰り】 可 スーパードライ(生) 630円 160kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※沖縄県ではオリオンドラフト〈生ビール〉の提供となります。 マルエフ(生) 630円 156kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ノンアルコールビール 500円 27kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 冷酒無添蔵 690円 200kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では提供方法が異なります。 春鹿 純米 超辛口 780円 193kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ハイボール 530円 69kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では販売しておりません。 デザート 春いちごパフェ 480円 330kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 白玉クリームあんみつ 420円 321kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 音駒高校のキャラメルアップルパフェ 430円 206kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 烏野高校のオレンジコーラ 530円 199kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 クリームチーズケーキ ～ナッツ・ドライフルーツ入り～ 330円 170kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※はちみつを使用しております。 干し柿のパウンドケーキ 360円 183kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ５種のサクもちボール 380円 407kcal 【提供エリア】 全店舗 【お持ち帰り】 可 感動のぷりん 240円 197kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 コーヒータルト 240円 214kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 カットパイン 220円 43kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 完熟アップルマンゴー 440円 88kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ミルキーミルクレープ 330円 272kcal 【提供エリア】 西日本・九州 【お持ち帰り】 可 ミルクレープ 330円 230kcal 【提供エリア】 東日本 【お持ち帰り】 可 チョコケーキ 200円 107kcal 【提供エリア】 全店舗 【お持ち帰り】 可 チーズケーキ 200円 81kcal 【提供エリア】 全店舗 【お持ち帰り】 可 プリンタルト 200円 156kcal 【提供エリア】 全店舗 【お持ち帰り】 可 大学芋スティック 140円 138kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では内容が異なります。 京わらびもち 140円 168kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらだんご みたらし 170円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 くらだんご 抹茶 250円 194kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 濃厚バニラアイス 210円 77kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 チョコアイス 210円 42kcal 【提供エリア】 全店舗 【お持ち帰り】 可 巨峰シャーベット 210円 53kcal 【提供エリア】 全店舗 【お持ち帰り】 可 【無添】コーラ 250円 108kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 ぶどうサイダー 250円 62kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 めろんサイダー 250円 112kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 オレンジ 250円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 りんご 250円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 宇治抹茶入り緑茶 170円 3kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 乳酸菌ウォーター 170円 76kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 プレミアホット珈琲 190円 28kcal 【提供エリア】 全店舗 【お持ち帰り】 可 プレミアアイス珈琲 190円 36kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 プレミアホットラテ 220円 83kcal 【提供エリア】 全店舗 【お持ち帰り】 可 プレミアアイスラテ 220円 92kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。 全国 東日本 西日本 九州・沖縄 該当店舗はこちら 該当店舗はこちら 該当店舗はこちら 該当店舗はこちら ※ 一部の店舗では価格が異なります。 ※ 売り切れによりご提供できないメニューがある場合がございます。予めご了承ください。 アレルゲン・カロリー情報 原材料・原産地情報 無添蔵 メニューはこちら 公式サイト おすすめ情報 店舗検索 メニュー お持ち帰り寿司 くら寿司プレスリリース 企業サイト 会社案内 IR情報 CSR活動 採用情報 アルバイト・パート募集 法人お取引窓口 Globalサイト KURA Sushi USA, Inc. 亞洲藏壽司股份有限公司 店舗用地募集 ご当地食材募集 お問い合わせ メディア取材・撮影申し込み プライバシーポリシー ソーシャルメディアポリシー 店内での撮影およびSNS投稿について アレルギー・原材料・原産地情報 くら寿司公式SNSで最新情報を配信中 ソーシャルメディアポリシー Copyright Kura Sushi, Inc. All Rights Reserved. ページトップへ",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ビッくらポン！Ⓡ厳選6貫セット",
+      "price": 790,
+      "calories": null,
+      "protein": null,
+      "rawText": "ビッくらポン！Ⓡ厳選6貫セット 790円 263kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※シャリハーフ非対応。 ※熟成まぐろ・ビントロ・サーモン・はまち・いか・えび（場合により商品の内容が異なります）",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "7種の魚介 醤油らーめん",
+      "price": 540,
+      "calories": null,
+      "protein": null,
+      "rawText": "7種の魚介 醤油らーめん 540円 286kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "7種の魚介 濃厚味噌らーめん",
+      "price": 540,
+      "calories": null,
+      "protein": null,
+      "rawText": "7種の魚介 濃厚味噌らーめん 540円 285kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "胡麻香る担々麺",
+      "price": 540,
+      "calories": null,
+      "protein": null,
+      "rawText": "胡麻香る担々麺 540円 423kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "サバ白湯らーめん",
+      "price": 680,
+      "calories": null,
+      "protein": null,
+      "rawText": "サバ白湯らーめん 680円 344kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "天然だしうどん",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "天然だしうどん 250円 227kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "きつねうどん",
+      "price": 500,
+      "calories": null,
+      "protein": null,
+      "rawText": "きつねうどん 500円 292kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えび天うどん",
+      "price": 530,
+      "calories": null,
+      "protein": null,
+      "rawText": "えび天うどん 530円 274kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "【讃岐】釜玉うどん",
+      "price": 600,
+      "calories": null,
+      "protein": null,
+      "rawText": "【讃岐】釜玉うどん 600円 281kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "【讃岐】ちく天ぶっかけうどん（冷）",
+      "price": 600,
+      "calories": null,
+      "protein": null,
+      "rawText": "【讃岐】ちく天ぶっかけうどん（冷） 600円 368kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "純味噌汁",
+      "price": 210,
+      "calories": null,
+      "protein": null,
+      "rawText": "純味噌汁 210円 32kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "純赤だし",
+      "price": 210,
+      "calories": null,
+      "protein": null,
+      "rawText": "純赤だし 210円 43kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「純味噌汁」の提供となります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あさり入り 味噌汁",
+      "price": 280,
+      "calories": null,
+      "protein": null,
+      "rawText": "あさり入り 味噌汁 280円 42kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可 ※一部店舗では内容が異なります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あさり入り 赤だし",
+      "price": 280,
+      "calories": null,
+      "protein": null,
+      "rawText": "あさり入り 赤だし 280円 52kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「あさり入り味噌汁」の提供となります。 ※一部店舗では内容が異なります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あおさ入り 味噌汁",
+      "price": 280,
+      "calories": null,
+      "protein": null,
+      "rawText": "あおさ入り 味噌汁 280円 51kcal 【提供エリア】 関東・九州・北陸（富山県・石川県・福井県） 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "あおさ入り 赤だし",
+      "price": 280,
+      "calories": null,
+      "protein": null,
+      "rawText": "あおさ入り 赤だし 280円 62kcal 【提供エリア】 関西・中京・四国・中国（山口県を除く） 【お持ち帰り】 不可 ※富山県・石川県・福井県では「あおさ入り味噌汁」の提供となります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "くら出汁",
+      "price": 170,
+      "calories": null,
+      "protein": null,
+      "rawText": "くら出汁 170円 20kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※お持ち帰りはカップでのご提供となります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "熟成まぐろ(シャリなし)",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "熟成まぐろ(シャリなし) 200円 37kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "サーモン(シャリなし)",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "サーモン(シャリなし) 200円 54kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ゆず塩かつおたたき(シャリなし)",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "ゆず塩かつおたたき(シャリなし) 200円 48kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "特製茶碗蒸し",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "特製茶碗蒸し 250円 67kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※時期により茶碗蒸しの中の具材が異なります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "フカヒレあんかけ茶碗蒸し",
+      "price": 430,
+      "calories": null,
+      "protein": null,
+      "rawText": "フカヒレあんかけ茶碗蒸し 430円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ロパビエハ",
+      "price": 240,
+      "calories": null,
+      "protein": null,
+      "rawText": "ロパビエハ 240円 54kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "えびブロッコリーサラダ",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "えびブロッコリーサラダ 250円 100kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "くらポテトミニ　ガーリックバター",
+      "price": 400,
+      "calories": null,
+      "protein": null,
+      "rawText": "くらポテトミニ ガーリックバター 400円 281kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "くらポテト",
+      "price": 460,
+      "calories": null,
+      "protein": null,
+      "rawText": "くらポテト 460円 396kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※ケチャップはついておりません。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "焼きとうもろこし",
+      "price": 115,
+      "calories": null,
+      "protein": null,
+      "rawText": "焼きとうもろこし 115円 142kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※２個",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ミニころチキン",
+      "price": 170,
+      "calories": null,
+      "protein": null,
+      "rawText": "ミニころチキン 170円 149kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "オニオンリング",
+      "price": 190,
+      "calories": null,
+      "protein": null,
+      "rawText": "オニオンリング 190円 103kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "とうもろこしのかき揚げ",
+      "price": 190,
+      "calories": null,
+      "protein": null,
+      "rawText": "とうもろこしのかき揚げ 190円 194kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "なんこつ唐揚げ",
+      "price": 280,
+      "calories": null,
+      "protein": null,
+      "rawText": "なんこつ唐揚げ 280円 150kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ポップコーンシュリンプ風",
+      "price": 280,
+      "calories": null,
+      "protein": null,
+      "rawText": "ポップコーンシュリンプ風 280円 313kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "チーズフライ",
+      "price": 330,
+      "calories": null,
+      "protein": null,
+      "rawText": "チーズフライ 330円 350kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※３個",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ザクザク唐揚げ",
+      "price": 460,
+      "calories": null,
+      "protein": null,
+      "rawText": "ザクザク唐揚げ 460円 368kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "スーパードライ(生)",
+      "price": 630,
+      "calories": null,
+      "protein": null,
+      "rawText": "スーパードライ(生) 630円 160kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※沖縄県ではオリオンドラフト〈生ビール〉の提供となります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "マルエフ(生)",
+      "price": 630,
+      "calories": null,
+      "protein": null,
+      "rawText": "マルエフ(生) 630円 156kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ノンアルコールビール",
+      "price": 500,
+      "calories": null,
+      "protein": null,
+      "rawText": "ノンアルコールビール 500円 27kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "冷酒無添蔵",
+      "price": 690,
+      "calories": null,
+      "protein": null,
+      "rawText": "冷酒無添蔵 690円 200kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では提供方法が異なります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "春鹿　純米　超辛口",
+      "price": 780,
+      "calories": null,
+      "protein": null,
+      "rawText": "春鹿 純米 超辛口 780円 193kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ハイボール",
+      "price": 530,
+      "calories": null,
+      "protein": null,
+      "rawText": "ハイボール 530円 69kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では販売しておりません。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "春いちごパフェ",
+      "price": 480,
+      "calories": null,
+      "protein": null,
+      "rawText": "春いちごパフェ 480円 330kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "白玉クリームあんみつ",
+      "price": 420,
+      "calories": null,
+      "protein": null,
+      "rawText": "白玉クリームあんみつ 420円 321kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "音駒高校のキャラメルアップルパフェ",
+      "price": 430,
+      "calories": null,
+      "protein": null,
+      "rawText": "音駒高校のキャラメルアップルパフェ 430円 206kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "烏野高校のオレンジコーラ",
+      "price": 530,
+      "calories": null,
+      "protein": null,
+      "rawText": "烏野高校のオレンジコーラ 530円 199kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "クリームチーズケーキ ～ナッツ・ドライフルーツ入り～",
+      "price": 330,
+      "calories": null,
+      "protein": null,
+      "rawText": "クリームチーズケーキ ～ナッツ・ドライフルーツ入り～ 330円 170kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※はちみつを使用しております。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "干し柿のパウンドケーキ",
+      "price": 360,
+      "calories": null,
+      "protein": null,
+      "rawText": "干し柿のパウンドケーキ 360円 183kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "５種のサクもちボール",
+      "price": 380,
+      "calories": null,
+      "protein": null,
+      "rawText": "５種のサクもちボール 380円 407kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "感動のぷりん",
+      "price": 240,
+      "calories": null,
+      "protein": null,
+      "rawText": "感動のぷりん 240円 197kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "コーヒータルト",
+      "price": 240,
+      "calories": null,
+      "protein": null,
+      "rawText": "コーヒータルト 240円 214kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "カットパイン",
+      "price": 220,
+      "calories": null,
+      "protein": null,
+      "rawText": "カットパイン 220円 43kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "完熟アップルマンゴー",
+      "price": 440,
+      "calories": null,
+      "protein": null,
+      "rawText": "完熟アップルマンゴー 440円 88kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ミルキーミルクレープ",
+      "price": 330,
+      "calories": null,
+      "protein": null,
+      "rawText": "ミルキーミルクレープ 330円 272kcal 【提供エリア】 西日本・九州 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ミルクレープ",
+      "price": 330,
+      "calories": null,
+      "protein": null,
+      "rawText": "ミルクレープ 330円 230kcal 【提供エリア】 東日本 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "チョコケーキ",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "チョコケーキ 200円 107kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "チーズケーキ",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "チーズケーキ 200円 81kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "プリンタルト",
+      "price": 200,
+      "calories": null,
+      "protein": null,
+      "rawText": "プリンタルト 200円 156kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "大学芋スティック",
+      "price": 140,
+      "calories": null,
+      "protein": null,
+      "rawText": "大学芋スティック 140円 138kcal 【提供エリア】 全店舗 【お持ち帰り】 不可 ※一部の店舗では内容が異なります。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "京わらびもち",
+      "price": 140,
+      "calories": null,
+      "protein": null,
+      "rawText": "京わらびもち 140円 168kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "くらだんご　みたらし",
+      "price": 170,
+      "calories": null,
+      "protein": null,
+      "rawText": "くらだんご みたらし 170円 141kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "くらだんご　抹茶",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "くらだんご 抹茶 250円 194kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "濃厚バニラアイス",
+      "price": 210,
+      "calories": null,
+      "protein": null,
+      "rawText": "濃厚バニラアイス 210円 77kcal 【提供エリア】 全店舗 【お持ち帰り】 不可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "チョコアイス",
+      "price": 210,
+      "calories": null,
+      "protein": null,
+      "rawText": "チョコアイス 210円 42kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "巨峰シャーベット",
+      "price": 210,
+      "calories": null,
+      "protein": null,
+      "rawText": "巨峰シャーベット 210円 53kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "【無添】コーラ",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "【無添】コーラ 250円 108kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "ぶどうサイダー",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "ぶどうサイダー 250円 62kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "めろんサイダー",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "めろんサイダー 250円 112kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "オレンジ",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "オレンジ 250円 75kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "りんご",
+      "price": 250,
+      "calories": null,
+      "protein": null,
+      "rawText": "りんご 250円 82kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "宇治抹茶入り緑茶",
+      "price": 170,
+      "calories": null,
+      "protein": null,
+      "rawText": "宇治抹茶入り緑茶 170円 3kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "乳酸菌ウォーター",
+      "price": 170,
+      "calories": null,
+      "protein": null,
+      "rawText": "乳酸菌ウォーター 170円 76kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "プレミアホット珈琲",
+      "price": 190,
+      "calories": null,
+      "protein": null,
+      "rawText": "プレミアホット珈琲 190円 28kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "プレミアアイス珈琲",
+      "price": 190,
+      "calories": null,
+      "protein": null,
+      "rawText": "プレミアアイス珈琲 190円 36kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "プレミアホットラテ",
+      "price": 220,
+      "calories": null,
+      "protein": null,
+      "rawText": "プレミアホットラテ 220円 83kcal 【提供エリア】 全店舗 【お持ち帰り】 可",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    },
+    {
+      "name": "プレミアアイスラテ",
+      "price": 220,
+      "calories": null,
+      "protein": null,
+      "rawText": "プレミアアイスラテ 220円 92kcal 【提供エリア】 全店舗 【お持ち帰り】 可 ※容器が異なる場合がございます。",
+      "url": "https://www.kurasushi.co.jp/menu/?area=area0"
+    }
+  ]
+}

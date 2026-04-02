@@ -1,0 +1,1013 @@
+{
+  "metadata": {
+    "title": "Budget Menu Picker Reference Dataset",
+    "description": "公式サイト・公式栄養情報を優先し、取得できない項目は手動参考値を残した参考データ。非公式です。",
+    "updatedAt": "2026-03-31",
+    "disclaimer": "価格・栄養値は公式公開情報を優先して反映していますが、一部項目には手動参考値が残っています。実際の販売内容や地域差は公式情報を確認してください。"
+  },
+  "chains": [
+    {
+      "id": "saizeriya",
+      "name": "サイゼリヤ",
+      "updatedAt": "2026-03-31",
+      "sourceLabel": "公式メニューを確認しつつ、栄養値は取得困難なため手動参考値を含む",
+      "sourceUrl": "https://www.saizeriya.co.jp/menu/",
+      "scrapeDate": "2026-03-31"
+    },
+    {
+      "id": "yoshinoya",
+      "name": "吉野家",
+      "updatedAt": "2026-03-31",
+      "sourceLabel": "公式メニュー価格を反映。栄養情報の機械取得が難しい項目は手動参考値を含む",
+      "sourceUrl": "https://www.yoshinoya.com/menu/",
+      "scrapeDate": "2026-03-31"
+    },
+    {
+      "id": "matsuya",
+      "name": "松屋",
+      "updatedAt": "2026-03-31",
+      "sourceLabel": "公式メニュー・公式栄養情報を反映。取得できなかった項目は手動参考値",
+      "sourceUrl": "https://www.matsuyafoods.co.jp/matsuya/service/nutrition.html",
+      "scrapeDate": "2026-03-31"
+    },
+    {
+      "id": "mcdonalds",
+      "name": "マクドナルド",
+      "updatedAt": "2026-03-31",
+      "sourceLabel": "公式メニュー・公式栄養成分一覧を反映",
+      "sourceUrl": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
+      "scrapeDate": "2026-03-31"
+    },
+    {
+      "id": "sushiro",
+      "name": "スシロー",
+      "updatedAt": "2026-03-31",
+      "sourceLabel": "Webリサーチによる参考値 (2026-03-31)",
+      "sourceUrl": "https://www.akindo-sushiro.co.jp/menu/menu_detail/",
+      "scrapeDate": "2026-03-31"
+    },
+    {
+      "id": "kurasushi",
+      "name": "くら寿司",
+      "updatedAt": "2026-03-31",
+      "sourceLabel": "公式サイト上で必要項目の一括取得が難しく、手動参考値を継続使用",
+      "sourceUrl": "https://www.kurasushi.co.jp/menu/",
+      "scrapeDate": "2026-03-31"
+    },
+    {
+      "id": "hamazushi",
+      "name": "はま寿司",
+      "updatedAt": "2026-03-31",
+      "sourceLabel": "公式サイト上で必要項目の一括取得が難しく、手動参考値を継続使用",
+      "sourceUrl": "https://www.hama-sushi.co.jp/menu/",
+      "scrapeDate": "2026-03-31"
+    }
+  ],
+  "items": [
+    {
+      "id": "s-001",
+      "chainId": "saizeriya",
+      "name": "若鶏のディアボラ風",
+      "category": "main",
+      "price": 500,
+      "calories": 503,
+      "protein": 35.1,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "s-002",
+      "chainId": "saizeriya",
+      "name": "柔らか青豆の温サラダ",
+      "category": "side",
+      "price": 200,
+      "calories": 174,
+      "protein": 10.6,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "s-003",
+      "chainId": "saizeriya",
+      "name": "チキンのサラダ",
+      "category": "side",
+      "price": 350,
+      "calories": 221,
+      "protein": 18.8,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "s-004",
+      "chainId": "saizeriya",
+      "name": "小エビのサラダ",
+      "category": "side",
+      "price": 350,
+      "calories": 192,
+      "protein": 11.2,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "s-005",
+      "chainId": "saizeriya",
+      "name": "ミラノ風ドリア",
+      "category": "rice",
+      "price": 300,
+      "calories": 521,
+      "protein": 19.1,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "s-006",
+      "chainId": "saizeriya",
+      "name": "半熟卵のミラノ風ドリア",
+      "category": "rice",
+      "price": 350,
+      "calories": 586,
+      "protein": 22.3,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "s-007",
+      "chainId": "saizeriya",
+      "name": "辛味チキン",
+      "category": "side",
+      "price": 300,
+      "calories": 295,
+      "protein": 18,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "s-008",
+      "chainId": "saizeriya",
+      "name": "ほうれん草のソテー",
+      "category": "side",
+      "price": 200,
+      "calories": 113,
+      "protein": 4.6,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "s-009",
+      "chainId": "saizeriya",
+      "name": "タラコソースシシリー風",
+      "category": "pasta",
+      "price": 400,
+      "calories": 592,
+      "protein": 21,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "s-010",
+      "chainId": "saizeriya",
+      "name": "イタリアンハンバーグ",
+      "category": "main",
+      "price": 500,
+      "calories": 622,
+      "protein": 25.7,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "y-001",
+      "chainId": "yoshinoya",
+      "name": "牛丼 並盛",
+      "category": "bowl",
+      "price": 498,
+      "calories": 633,
+      "protein": 20.2,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "y-002",
+      "chainId": "yoshinoya",
+      "name": "牛丼 アタマの大盛",
+      "category": "bowl",
+      "price": 674,
+      "calories": 742,
+      "protein": 24.3,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "y-003",
+      "chainId": "yoshinoya",
+      "name": "牛カルビ丼 並盛",
+      "category": "bowl",
+      "price": 718,
+      "calories": 748,
+      "protein": 19.4,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "y-004",
+      "chainId": "yoshinoya",
+      "name": "ねぎ塩豚丼 並盛",
+      "category": "bowl",
+      "price": 578,
+      "calories": 661,
+      "protein": 17.2,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "y-005",
+      "chainId": "yoshinoya",
+      "name": "牛皿",
+      "category": "side",
+      "price": 444,
+      "calories": 304,
+      "protein": 15.9,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "y-006",
+      "chainId": "yoshinoya",
+      "name": "牛鮭定食",
+      "category": "set",
+      "price": 767,
+      "calories": 708,
+      "protein": 30.6,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "y-007",
+      "chainId": "yoshinoya",
+      "name": "豚汁",
+      "category": "side",
+      "price": 217,
+      "calories": 129,
+      "protein": 6.9,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "y-008",
+      "chainId": "yoshinoya",
+      "name": "お新香",
+      "category": "side",
+      "price": 162,
+      "calories": 28,
+      "protein": 1.2,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "y-009",
+      "chainId": "yoshinoya",
+      "name": "鮭",
+      "category": "side",
+      "price": 272,
+      "calories": 144,
+      "protein": 13.6,
+      "tags": [
+        "high-protein",
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "y-010",
+      "chainId": "yoshinoya",
+      "name": "から揚げ 3個",
+      "category": "side",
+      "price": 459,
+      "calories": 249,
+      "protein": 14.7,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "m-001",
+      "chainId": "matsuya",
+      "name": "牛めし 並盛",
+      "category": "bowl",
+      "price": 460,
+      "calories": 687,
+      "protein": 17.1,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "m-002",
+      "chainId": "matsuya",
+      "name": "ネギたっぷり旨辛ネギたま牛めし 並盛",
+      "category": "bowl",
+      "price": 660,
+      "calories": 818,
+      "protein": 24.7,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "m-003",
+      "chainId": "matsuya",
+      "name": "チーズ牛めし 並盛",
+      "category": "bowl",
+      "price": 660,
+      "calories": 846,
+      "protein": 25.3,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "m-004",
+      "chainId": "matsuya",
+      "name": "牛焼肉定食",
+      "category": "set",
+      "price": 890,
+      "calories": 806,
+      "protein": 23.3,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "m-005",
+      "chainId": "matsuya",
+      "name": "厚切り豚カルビ焼肉定食",
+      "category": "set",
+      "price": 890,
+      "calories": 917,
+      "protein": 26.4,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "m-006",
+      "chainId": "matsuya",
+      "name": "豚汁",
+      "category": "side",
+      "price": 180,
+      "calories": 143,
+      "protein": 7.4,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "m-007",
+      "chainId": "matsuya",
+      "name": "生野菜",
+      "category": "side",
+      "price": 140,
+      "calories": 32,
+      "protein": 1.8,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "m-008",
+      "chainId": "matsuya",
+      "name": "冷奴",
+      "category": "side",
+      "price": 100,
+      "calories": 83,
+      "protein": 6.8,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "m-009",
+      "chainId": "matsuya",
+      "name": "ソーセージエッグ",
+      "category": "breakfast",
+      "price": 230,
+      "calories": 181,
+      "protein": 10.9,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "m-010",
+      "chainId": "matsuya",
+      "name": "半熟玉子",
+      "category": "side",
+      "price": 100,
+      "calories": 71,
+      "protein": 5.8,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "mc-001",
+      "chainId": "mcdonalds",
+      "name": "チーズバーガー",
+      "category": "burger",
+      "price": 240,
+      "calories": 310,
+      "protein": 15.9,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "mc-002",
+      "chainId": "mcdonalds",
+      "name": "ハンバーガー",
+      "category": "burger",
+      "price": 190,
+      "calories": 259,
+      "protein": 13,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "mc-003",
+      "chainId": "mcdonalds",
+      "name": "エグチ(エッグチーズバーガー)",
+      "category": "burger",
+      "price": 280,
+      "calories": 390,
+      "protein": 22.4,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "mc-004",
+      "chainId": "mcdonalds",
+      "name": "ベーコンレタスバーガー",
+      "category": "burger",
+      "price": 450,
+      "calories": 362,
+      "protein": 17.4,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "mc-005",
+      "chainId": "mcdonalds",
+      "name": "チキンマックナゲット 5ピース",
+      "category": "side",
+      "price": 290,
+      "calories": 262,
+      "protein": 15.3,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "mc-006",
+      "chainId": "mcdonalds",
+      "name": "サイドサラダ",
+      "category": "side",
+      "price": 350,
+      "calories": 10,
+      "protein": 0.5,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "mc-007",
+      "chainId": "mcdonalds",
+      "name": "えだまめコーン",
+      "category": "side",
+      "price": 300,
+      "calories": 83,
+      "protein": 5.2,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "mc-008",
+      "chainId": "mcdonalds",
+      "name": "マックフライポテト S",
+      "category": "side",
+      "price": 220,
+      "calories": 224,
+      "protein": 3,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "mc-009",
+      "chainId": "mcdonalds",
+      "name": "マックポーク",
+      "category": "burger",
+      "price": 230,
+      "calories": 401,
+      "protein": 15.1,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "mc-010",
+      "chainId": "mcdonalds",
+      "name": "ソーセージマフィン",
+      "category": "breakfast",
+      "price": 180,
+      "calories": 397,
+      "protein": 15.5,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "su-000",
+      "chainId": "sushiro",
+      "name": "まぐろ",
+      "category": "sushi",
+      "price": 120,
+      "calories": 80,
+      "protein": 7.2,
+      "tags": ["high-protein", "low-calorie"]
+    },
+    {
+      "id": "su-001",
+      "chainId": "sushiro",
+      "name": "サーモン",
+      "category": "sushi",
+      "price": 120,
+      "calories": 91,
+      "protein": 5.2,
+      "tags": [
+        "high-protein",
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-002",
+      "chainId": "sushiro",
+      "name": "えび",
+      "category": "sushi",
+      "price": 120,
+      "calories": 72,
+      "protein": 4.8,
+      "tags": [
+        "high-protein",
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-003",
+      "chainId": "sushiro",
+      "name": "赤えび",
+      "category": "sushi",
+      "price": 120,
+      "calories": 45,
+      "protein": 4,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-004",
+      "chainId": "sushiro",
+      "name": "えんがわ",
+      "category": "sushi",
+      "price": 140,
+      "calories": 89,
+      "protein": 3.3,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-005",
+      "chainId": "sushiro",
+      "name": "生えび",
+      "category": "sushi",
+      "price": 140,
+      "calories": 68,
+      "protein": 4.5,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-006",
+      "chainId": "sushiro",
+      "name": "コウイカ",
+      "category": "sushi",
+      "price": 140,
+      "calories": 70,
+      "protein": 4.8,
+      "tags": [
+        "high-protein",
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-007",
+      "chainId": "sushiro",
+      "name": "たまご",
+      "category": "sushi",
+      "price": 120,
+      "calories": 122,
+      "protein": 4.5,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-008",
+      "chainId": "sushiro",
+      "name": "小粒納豆軍艦",
+      "category": "gunkan",
+      "price": 120,
+      "calories": 100,
+      "protein": 5,
+      "tags": [
+        "high-protein",
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-009",
+      "chainId": "sushiro",
+      "name": "ねぎまぐろ軍艦",
+      "category": "gunkan",
+      "price": 120,
+      "calories": 108,
+      "protein": 4.8,
+      "tags": [
+        "high-protein",
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-010",
+      "chainId": "sushiro",
+      "name": "オニオンサーモン",
+      "category": "sushi",
+      "price": 140,
+      "calories": 118,
+      "protein": 5.4,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-011",
+      "chainId": "sushiro",
+      "name": "活〆はまち",
+      "category": "sushi",
+      "price": 160,
+      "calories": 99,
+      "protein": 5.7,
+      "tags": [
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "su-012",
+      "chainId": "sushiro",
+      "name": "厳選まぐろ赤身食べ比べ",
+      "category": "sushi",
+      "price": 140,
+      "calories": 81,
+      "protein": 8,
+      "tags": [
+        "high-protein",
+        "low-calorie",
+        "value"
+      ]
+    },
+    {
+      "id": "ku-001",
+      "chainId": "kurasushi",
+      "name": "熟成まぐろ",
+      "category": "sushi",
+      "price": 115,
+      "calories": 84,
+      "protein": 5.9,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "ku-002",
+      "chainId": "kurasushi",
+      "name": "サーモン",
+      "category": "sushi",
+      "price": 115,
+      "calories": 96,
+      "protein": 5,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "ku-003",
+      "chainId": "kurasushi",
+      "name": "はまち",
+      "category": "sushi",
+      "price": 115,
+      "calories": 103,
+      "protein": 5.3,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "ku-004",
+      "chainId": "kurasushi",
+      "name": "えび",
+      "category": "sushi",
+      "price": 115,
+      "calories": 73,
+      "protein": 5.5,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "ku-005",
+      "chainId": "kurasushi",
+      "name": "いか",
+      "category": "sushi",
+      "price": 115,
+      "calories": 70,
+      "protein": 5.9,
+      "tags": [
+        "high-protein",
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "ku-006",
+      "chainId": "kurasushi",
+      "name": "えびアボカド",
+      "category": "sushi",
+      "price": 115,
+      "calories": 108,
+      "protein": 4.2,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ku-007",
+      "chainId": "kurasushi",
+      "name": "コーン",
+      "category": "gunkan",
+      "price": 115,
+      "calories": 118,
+      "protein": 3.1,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ku-008",
+      "chainId": "kurasushi",
+      "name": "ねぎまぐろ",
+      "category": "gunkan",
+      "price": 115,
+      "calories": 106,
+      "protein": 5.1,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "ku-009",
+      "chainId": "kurasushi",
+      "name": "納豆",
+      "category": "gunkan",
+      "price": 115,
+      "calories": 105,
+      "protein": 4.3,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ku-010",
+      "chainId": "kurasushi",
+      "name": "たまご",
+      "category": "sushi",
+      "price": 115,
+      "calories": 109,
+      "protein": 3.7,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ku-011",
+      "chainId": "kurasushi",
+      "name": "あおさ入り味噌汁",
+      "category": "side",
+      "price": 165,
+      "calories": 32,
+      "protein": 2.2,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "ku-012",
+      "chainId": "kurasushi",
+      "name": "茶碗蒸し",
+      "category": "side",
+      "price": 205,
+      "calories": 79,
+      "protein": 5.4,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "ha-001",
+      "chainId": "hamazushi",
+      "name": "まぐろ",
+      "category": "sushi",
+      "price": 110,
+      "calories": 85,
+      "protein": 5.8,
+      "tags": [
+        "high-protein"
+      ]
+    },
+    {
+      "id": "ha-002",
+      "chainId": "hamazushi",
+      "name": "焼とろサーモン",
+      "category": "sushi",
+      "price": 110,
+      "calories": 99,
+      "protein": 4.9,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "ha-003",
+      "chainId": "hamazushi",
+      "name": "えび",
+      "category": "sushi",
+      "price": 110,
+      "calories": 72,
+      "protein": 5.5,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "ha-004",
+      "chainId": "hamazushi",
+      "name": "いか",
+      "category": "sushi",
+      "price": 110,
+      "calories": 69,
+      "protein": 5.9,
+      "tags": [
+        "high-protein",
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "ha-005",
+      "chainId": "hamazushi",
+      "name": "真いわし",
+      "category": "sushi",
+      "price": 110,
+      "calories": 94,
+      "protein": 5.1,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "ha-006",
+      "chainId": "hamazushi",
+      "name": "たまご",
+      "category": "sushi",
+      "price": 110,
+      "calories": 110,
+      "protein": 3.8,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ha-007",
+      "chainId": "hamazushi",
+      "name": "納豆軍艦",
+      "category": "gunkan",
+      "price": 110,
+      "calories": 104,
+      "protein": 4.4,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ha-008",
+      "chainId": "hamazushi",
+      "name": "まぐろたたき軍艦",
+      "category": "gunkan",
+      "price": 110,
+      "calories": 100,
+      "protein": 5,
+      "tags": [
+        "balanced"
+      ]
+    },
+    {
+      "id": "ha-009",
+      "chainId": "hamazushi",
+      "name": "サラダ軍艦",
+      "category": "gunkan",
+      "price": 110,
+      "calories": 116,
+      "protein": 3.2,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ha-010",
+      "chainId": "hamazushi",
+      "name": "えび天握り",
+      "category": "sushi",
+      "price": 110,
+      "calories": 121,
+      "protein": 4.1,
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "id": "ha-011",
+      "chainId": "hamazushi",
+      "name": "あおさみそ汁",
+      "category": "side",
+      "price": 165,
+      "calories": 29,
+      "protein": 2,
+      "tags": [
+        "low-calorie"
+      ]
+    },
+    {
+      "id": "ha-012",
+      "chainId": "hamazushi",
+      "name": "茶碗蒸し",
+      "category": "side",
+      "price": 220,
+      "calories": 84,
+      "protein": 5.8,
+      "tags": [
+        "balanced"
+      ]
+    }
+  ]
+}
