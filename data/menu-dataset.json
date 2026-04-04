@@ -9,6 +9,7 @@
     {
       "id": "saizeriya",
       "name": "サイゼリヤ",
+      "status": "pending",
       "updatedAt": "2026-03-31",
       "sourceLabel": "公式メニューを確認しつつ、栄養値は取得困難なため手動参考値を含む",
       "sourceUrl": "https://www.saizeriya.co.jp/menu/",
@@ -17,6 +18,7 @@
     {
       "id": "yoshinoya",
       "name": "吉野家",
+      "status": "active",
       "updatedAt": "2026-03-31",
       "sourceLabel": "公式メニュー価格を反映。栄養情報の機械取得が難しい項目は手動参考値を含む",
       "sourceUrl": "https://www.yoshinoya.com/menu/",
@@ -25,6 +27,7 @@
     {
       "id": "matsuya",
       "name": "松屋",
+      "status": "active",
       "updatedAt": "2026-03-31",
       "sourceLabel": "公式メニュー・公式栄養情報を反映。取得できなかった項目は手動参考値",
       "sourceUrl": "https://www.matsuyafoods.co.jp/matsuya/service/nutrition.html",
@@ -33,6 +36,7 @@
     {
       "id": "mcdonalds",
       "name": "マクドナルド",
+      "status": "active",
       "updatedAt": "2026-03-31",
       "sourceLabel": "公式メニュー・公式栄養成分一覧を反映",
       "sourceUrl": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/nutrient/",
@@ -41,6 +45,7 @@
     {
       "id": "sushiro",
       "name": "スシロー",
+      "status": "active",
       "updatedAt": "2026-03-31",
       "sourceLabel": "Webリサーチによる参考値 (2026-03-31)",
       "sourceUrl": "https://www.akindo-sushiro.co.jp/menu/menu_detail/",
@@ -49,6 +54,7 @@
     {
       "id": "kurasushi",
       "name": "くら寿司",
+      "status": "pending",
       "updatedAt": "2026-03-31",
       "sourceLabel": "公式サイト上で必要項目の一括取得が難しく、手動参考値を継続使用",
       "sourceUrl": "https://www.kurasushi.co.jp/menu/",
@@ -57,6 +63,7 @@
     {
       "id": "hamazushi",
       "name": "はま寿司",
+      "status": "pending",
       "updatedAt": "2026-03-31",
       "sourceLabel": "公式サイト上で必要項目の一括取得が難しく、手動参考値を継続使用",
       "sourceUrl": "https://www.hama-sushi.co.jp/menu/",

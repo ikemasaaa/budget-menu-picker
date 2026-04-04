@@ -1,4 +1,4 @@
-import type { QueryState } from "./types.ts";
+import { constraintDefs, type Chain, type ConstraintState, type QueryState } from "./types.ts";
 import { filterSelectableChainIds } from "./chain-selection.ts";
 
 const DEFAULT_CHAINS = [
@@ -23,34 +23,41 @@ function appendNumber(params: URLSearchParams, key: string, value: number | null
   }
 }
 
-export function readQueryState(): QueryState {
+function readConstraintState(params: URLSearchParams): ConstraintState {
+  return Object.fromEntries(
+    constraintDefs.flatMap((def) => [
+      [def.minFieldId, parseOptionalNumber(params.get(def.minFieldId))],
+      [def.maxFieldId, parseOptionalNumber(params.get(def.maxFieldId))],
+    ]),
+  ) as ConstraintState;
+}
+
+function appendConstraintParams(params: URLSearchParams, state: ConstraintState) {
+  for (const def of constraintDefs) {
+    appendNumber(params, def.minFieldId, state[def.minFieldId]);
+    appendNumber(params, def.maxFieldId, state[def.maxFieldId]);
+  }
+}
+
+export function readQueryState(chains: Chain[]): QueryState {
   const params = new URLSearchParams(window.location.search);
-  const chains = filterSelectableChainIds(
+  const selectedChains = filterSelectableChainIds(
     (params.get("chains") ?? "")
-    .split(",")
-    .map((value) => value.trim())
-    .filter(Boolean),
+      .split(",")
+      .map((value) => value.trim())
+      .filter(Boolean),
+    chains,
   );
 
   return {
-    budgetMin: parseOptionalNumber(params.get("budgetMin")),
-    budgetMax: parseOptionalNumber(params.get("budgetMax")),
-    calorieMin: parseOptionalNumber(params.get("calorieMin")),
-    calorieMax: parseOptionalNumber(params.get("calorieMax")),
-    proteinMin: parseOptionalNumber(params.get("proteinMin")),
-    proteinMax: parseOptionalNumber(params.get("proteinMax")),
-    chains: chains.length > 0 ? chains : DEFAULT_CHAINS,
+    ...readConstraintState(params),
+    chains: selectedChains.length > 0 ? selectedChains : filterSelectableChainIds(DEFAULT_CHAINS, chains),
   };
 }
 
 export function writeQueryState(state: QueryState) {
   const params = new URLSearchParams();
-  appendNumber(params, "budgetMin", state.budgetMin);
-  appendNumber(params, "budgetMax", state.budgetMax);
-  appendNumber(params, "calorieMin", state.calorieMin);
-  appendNumber(params, "calorieMax", state.calorieMax);
-  appendNumber(params, "proteinMin", state.proteinMin);
-  appendNumber(params, "proteinMax", state.proteinMax);
+  appendConstraintParams(params, state);
   params.set("chains", state.chains.join(","));
 
   const query = params.toString();
@@ -63,12 +70,7 @@ export function buildShareUrl(state: QueryState): string {
   url.search = "";
 
   const params = new URLSearchParams();
-  appendNumber(params, "budgetMin", state.budgetMin);
-  appendNumber(params, "budgetMax", state.budgetMax);
-  appendNumber(params, "calorieMin", state.calorieMin);
-  appendNumber(params, "calorieMax", state.calorieMax);
-  appendNumber(params, "proteinMin", state.proteinMin);
-  appendNumber(params, "proteinMax", state.proteinMax);
+  appendConstraintParams(params, state);
   params.set("chains", state.chains.join(","));
   url.search = params.toString();
 

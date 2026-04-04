@@ -1,15 +1,16 @@
-export const HIDDEN_CHAIN_IDS = ["saizeriya", "kurasushi", "hamazushi"] as const;
+import type { Chain } from "./types.ts";
 
-const HIDDEN_CHAIN_ID_SET = new Set<string>(HIDDEN_CHAIN_IDS);
+type SelectableChain = Pick<Chain, "id" | "status">;
 
-export function isSelectableChain(chainId: string): boolean {
-  return !HIDDEN_CHAIN_ID_SET.has(chainId);
+export function isSelectableChain(chain: Pick<Chain, "status">): boolean {
+  return chain.status === "active";
 }
 
-export function filterSelectableChains<T extends { id: string }>(chains: T[]): T[] {
-  return chains.filter((chain) => isSelectableChain(chain.id));
+export function filterSelectableChains<T extends SelectableChain>(chains: T[]): T[] {
+  return chains.filter((chain) => isSelectableChain(chain));
 }
 
-export function filterSelectableChainIds(chainIds: string[]): string[] {
-  return chainIds.filter((chainId) => isSelectableChain(chainId));
+export function filterSelectableChainIds(chainIds: string[], chains: SelectableChain[]): string[] {
+  const selectableChainIds = new Set(filterSelectableChains(chains).map((chain) => chain.id));
+  return chainIds.filter((chainId) => selectableChainIds.has(chainId));
 }

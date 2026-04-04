@@ -3,13 +3,34 @@ import assert from "node:assert/strict";
 
 import { searchMenus } from "../src/lib/search.ts";
 import { readQueryState } from "../src/lib/url-state.ts";
-import type { MenuItem, SearchInput } from "../src/lib/types.ts";
+import type { Chain, MenuItem, SearchInput } from "../src/lib/types.ts";
 
 const items: MenuItem[] = [
   { id: "a", chainId: "alpha", name: "Chicken", category: "main", price: 400, calories: 300, protein: 30, tags: [] },
   { id: "b", chainId: "alpha", name: "Egg", category: "side", price: 120, calories: 80, protein: 7, tags: [] },
   { id: "c", chainId: "beta", name: "Salad", category: "side", price: 150, calories: 40, protein: 2, tags: [] },
   { id: "d", chainId: "beta", name: "Burger", category: "main", price: 320, calories: 420, protein: 14, tags: [] }
+];
+
+function chain(id: string, status: Chain["status"]): Chain {
+  return {
+    id,
+    name: id,
+    status,
+    updatedAt: "2026-03-31",
+    scrapeDate: "2026-03-31",
+    sourceLabel: "test",
+    sourceUrl: "https://example.com"
+  };
+}
+
+const testChains: Chain[] = [
+  chain("saizeriya", "pending"),
+  chain("yoshinoya", "active"),
+  chain("matsuya", "active"),
+  chain("mcdonalds", "active"),
+  chain("sushiro", "active"),
+  chain("hamazushi", "pending")
 ];
 
 function baseInput(): SearchInput {
@@ -77,7 +98,7 @@ test("URLクエリから非表示チェーンを除外する", () => {
     }
   } as Window & typeof globalThis;
 
-  const state = readQueryState();
+  const state = readQueryState(testChains);
 
   assert.deepEqual(state.chains, ["mcdonalds", "sushiro"]);
 });
@@ -89,7 +110,7 @@ test("チェーン未指定時の既定値に非表示チェーンを含めな�
     }
   } as Window & typeof globalThis;
 
-  const state = readQueryState();
+  const state = readQueryState(testChains);
 
   assert.deepEqual(state.chains, ["yoshinoya", "matsuya", "mcdonalds", "sushiro"]);
 });

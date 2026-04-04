@@ -1,6 +1,6 @@
 import { searchMenus } from "./lib/search.ts";
 import { filterSelectableChainIds, filterSelectableChains } from "./lib/chain-selection.ts";
-import type { Dataset, QueryState, SearchInput, SearchResponse, SearchResult } from "./lib/types.ts";
+import { constraintDefs, type ConstraintState, type Dataset, type NumericFieldId, type QueryState, type SearchInput, type SearchResponse, type SearchResult } from "./lib/types.ts";
 import { buildShareUrl, readQueryState, writeQueryState } from "./lib/url-state.ts";
 
 const app = document.querySelector<HTMLDivElement>("#app");
@@ -9,30 +9,42 @@ if (!app) {
   throw new Error("#app が見つかりません");
 }
 
-const initialState = readQueryState();
-
 const state: QueryState = {
-  budgetMin: initialState.budgetMin,
-  budgetMax: initialState.budgetMax,
-  calorieMin: initialState.calorieMin,
-  calorieMax: initialState.calorieMax,
-  proteinMin: initialState.proteinMin,
-  proteinMax: initialState.proteinMax,
-  chains: [...initialState.chains],
+  budgetMin: null,
+  budgetMax: null,
+  calorieMin: null,
+  calorieMax: null,
+  proteinMin: null,
+  proteinMax: null,
+  chains: [],
 };
 
 let lastResponse: SearchResponse | null = null;
 let latestDraw: SearchResult[] = [];
 let drawVersion = 0;
+let activeDataset: Dataset | null = null;
+let statusMessage = "";
+let statusTone: "success" | "error" = "success";
+let statusTimeoutId: number | null = null;
+
+type ValidationErrors = Partial<Record<NumericFieldId, string>>;
+
+const VALIDATION_STATUS_MESSAGE = "入力内容を確認してください。";
+
+let validationErrors: ValidationErrors = {};
+
+function buildConstraintState(): ConstraintState {
+  return Object.fromEntries(
+    constraintDefs.flatMap((def) => [
+      [def.minFieldId, state[def.minFieldId]],
+      [def.maxFieldId, state[def.maxFieldId]],
+    ]),
+  ) as ConstraintState;
+}
 
 function inputState(): SearchInput {
   return {
-    budgetMin: state.budgetMin,
-    budgetMax: state.budgetMax,
-    calorieMin: state.calorieMin,
-    calorieMax: state.calorieMax,
-    proteinMin: state.proteinMin,
-    proteinMax: state.proteinMax,
+    ...buildConstraintState(),
     chainIds: state.chains,
     maxItemsTotal: 5,
     candidateLimit: 200,
@@ -87,17 +99,109 @@ function resetDraw() {
 }
 
 function buildConstraintSummary(): string[] {
-  return [
-    `予算 ${formatOptionalNumber(state.budgetMin, "円")} 〜 ${formatOptionalNumber(state.budgetMax, "円")}`,
-    `カロリー ${formatOptionalNumber(state.calorieMin, "kcal")} 〜 ${formatOptionalNumber(state.calorieMax, "kcal")}`,
-    `タンパク質 ${formatOptionalNumber(state.proteinMin, "g")} 〜 ${formatOptionalNumber(state.proteinMax, "g")}`,
-  ];
+  return constraintDefs.map(
+    (def) =>
+      `${def.label} ${formatOptionalNumber(state[def.minFieldId], def.suffix)} 〜 ${formatOptionalNumber(
+        state[def.maxFieldId],
+        def.suffix,
+      )}`,
+  );
+}
+
+function clearStatusTimeout() {
+  if (statusTimeoutId !== null) {
+    window.clearTimeout(statusTimeoutId);
+    statusTimeoutId = null;
+  }
+}
+
+function clearStatusMessage() {
+  clearStatusTimeout();
+  statusMessage = "";
+}
+
+function setStatusMessage(message: string, tone: "success" | "error", autoClearMs?: number) {
+  clearStatusTimeout();
+  statusMessage = message;
+  statusTone = tone;
+
+  if (autoClearMs !== undefined) {
+    statusTimeoutId = window.setTimeout(() => {
+      statusMessage = "";
+      statusTimeoutId = null;
+      if (activeDataset) {
+        refreshView(activeDataset);
+      }
+    }, autoClearMs);
+  }
+}
+
+function collectValidationErrors(): ValidationErrors {
+  const errors: ValidationErrors = {};
+
+  for (const def of constraintDefs) {
+    const minValue = state[def.minFieldId];
+    const maxValue = state[def.maxFieldId];
+    if (minValue !== null && maxValue !== null && minValue > maxValue) {
+      const message = `${def.label}下限は${def.label}上限以下にしてください。`;
+      errors[def.minFieldId] = message;
+      errors[def.maxFieldId] = message;
+    }
+  }
+
+  return errors;
+}
+
+function hasValidationErrors(errors: ValidationErrors): boolean {
+  return Object.keys(errors).length > 0;
+}
+
+function syncValidationState(showStatusMessage: boolean) {
+  validationErrors = collectValidationErrors();
+
+  if (hasValidationErrors(validationErrors)) {
+    if (showStatusMessage) {
+      setStatusMessage(VALIDATION_STATUS_MESSAGE, "error");
+    }
+    return;
+  }
+
+  if (statusMessage === VALIDATION_STATUS_MESSAGE) {
+    clearStatusMessage();
+  }
+}
+
+function renderNumberField(
+  id: NumericFieldId,
+  label: string,
+  min: number,
+  max: number,
+  step: number,
+  value: number | null,
+): string {
+  const error = validationErrors[id];
+  const describedBy = error ? ` aria-describedby="${id}-error"` : "";
+  const invalid = error ? ' aria-invalid="true"' : "";
+
+  return `
+    <label class="field-group" for="${id}">
+      <span class="field-label">${label}</span>
+      <input
+        id="${id}"
+        name="${id}"
+        type="number"
+        min="${min}"
+        max="${max}"
+        step="${step}"
+        value="${value ?? ""}"${invalid}${describedBy}
+      />
+      ${error ? `<span class="field-error" id="${id}-error">${escapeHtml(error)}</span>` : ""}
+    </label>
+  `;
 }
 
 function render(dataset: Dataset) {
   const selectableChains = filterSelectableChains(dataset.chains);
-  state.chains = filterSelectableChainIds(state.chains);
-  writeQueryState(state);
   const shareUrl = buildShareUrl(state);
   const summaryLines = buildConstraintSummary();
   const hasResults = latestDraw.length > 0;
@@ -120,59 +224,65 @@ function render(dataset: Dataset) {
       </section>
 
       <section class="panel controls">
-        <div class="panel-header">
-          <h2>条件設定</h2>
-          <button id="copy-share" class="ghost-button" type="button">共有URLをコピー</button>
-        </div>
-        <p class="section-copy">未入力の項目は制約なしとして扱います。設定後にガチャを回してください。</p>
+        <form id="search-form" class="controls-form" novalidate>
+          <div class="panel-header">
+            <h2>条件設定</h2>
+            <button id="copy-share" class="ghost-button" type="button">共有URLをコピー</button>
+          </div>
+          <p class="section-copy">未入力の項目は制約なしとして扱います。設定後にガチャを回してください。</p>
 
-        <div class="form-grid">
-          <label>
-            予算下限
-            <input id="budgetMin" type="number" min="0" max="5000" step="50" value="${state.budgetMin ?? ""}" />
-          </label>
-          <label>
-            予算上限
-            <input id="budgetMax" type="number" min="0" max="5000" step="50" value="${state.budgetMax ?? ""}" />
-          </label>
-          <label>
-            カロリー下限
-            <input id="calorieMin" type="number" min="0" max="3000" step="50" value="${state.calorieMin ?? ""}" />
-          </label>
-          <label>
-            カロリー上限
-            <input id="calorieMax" type="number" min="0" max="3000" step="50" value="${state.calorieMax ?? ""}" />
-          </label>
-          <label>
-            タンパク質下限
-            <input id="proteinMin" type="number" min="0" max="200" step="1" value="${state.proteinMin ?? ""}" />
-          </label>
-          <label>
-            タンパク質上限
-            <input id="proteinMax" type="number" min="0" max="200" step="1" value="${state.proteinMax ?? ""}" />
-          </label>
-        </div>
+          <div class="status-region" role="status" aria-live="polite" aria-atomic="true">
+            ${
+              statusMessage
+                ? `<p class="status-message status-${statusTone}">${escapeHtml(statusMessage)}</p>`
+                : ""
+            }
+          </div>
 
-        <fieldset class="chain-grid">
-          <legend>対象チェーン</legend>
-          ${selectableChains
-            .map(
-              (chain) => `
-                <label class="chain-option">
-                  <input type="checkbox" value="${chain.id}" ${state.chains.includes(chain.id) ? "checked" : ""} />
-                  <span>${chain.name}</span>
-                </label>
-              `,
-            )
-            .join("")}
-        </fieldset>
+          <div class="form-grid">
+            ${constraintDefs
+              .flatMap((def) => [
+                renderNumberField(
+                  def.minFieldId,
+                  `${def.label}下限`,
+                  def.min,
+                  def.max,
+                  def.step,
+                  state[def.minFieldId],
+                ),
+                renderNumberField(
+                  def.maxFieldId,
+                  `${def.label}上限`,
+                  def.min,
+                  def.max,
+                  def.step,
+                  state[def.maxFieldId],
+                ),
+              ])
+              .join("")}
+          </div>
 
-        <div class="gacha-actions">
-          <button id="spin-gacha" class="gacha-button" type="button">
-            ${hasAttempted ? "もう一度回す" : "ガチャを回す"}
-          </button>
-          <p class="action-note">条件一致の候補を最大200件まで探索し、その中から1〜3件をランダム表示します。</p>
-        </div>
+          <fieldset class="chain-grid">
+            <legend>対象チェーン</legend>
+            ${selectableChains
+              .map(
+                (chain) => `
+                  <label class="chain-option">
+                    <input type="checkbox" value="${chain.id}" ${state.chains.includes(chain.id) ? "checked" : ""} />
+                    <span>${chain.name}</span>
+                  </label>
+                `,
+              )
+              .join("")}
+          </fieldset>
+
+          <div class="gacha-actions">
+            <button id="spin-gacha" class="gacha-button" type="submit">
+              ${hasAttempted ? "もう一度回す" : "ガチャを回す"}
+            </button>
+            <p class="action-note">条件一致の候補を最大200件まで探索し、その中から1〜3件をランダム表示します。</p>
+          </div>
+        </form>
 
         <div class="scrape-summary">
           <p>データ確認日</p>
@@ -322,50 +432,41 @@ function parseOptionalValue(input: HTMLInputElement | null): number | null {
 }
 
 function updateNumericState() {
-  state.budgetMin = parseOptionalValue(document.querySelector<HTMLInputElement>("#budgetMin"));
-  state.budgetMax = parseOptionalValue(document.querySelector<HTMLInputElement>("#budgetMax"));
-  state.calorieMin = parseOptionalValue(document.querySelector<HTMLInputElement>("#calorieMin"));
-  state.calorieMax = parseOptionalValue(document.querySelector<HTMLInputElement>("#calorieMax"));
-  state.proteinMin = parseOptionalValue(document.querySelector<HTMLInputElement>("#proteinMin"));
-  state.proteinMax = parseOptionalValue(document.querySelector<HTMLInputElement>("#proteinMax"));
+  for (const def of constraintDefs) {
+    state[def.minFieldId] = parseOptionalValue(document.querySelector<HTMLInputElement>(`#${def.minFieldId}`));
+    state[def.maxFieldId] = parseOptionalValue(document.querySelector<HTMLInputElement>(`#${def.maxFieldId}`));
+  }
 }
 
-function validateInput(): string | null {
-  if (state.budgetMin !== null && state.budgetMax !== null && state.budgetMin > state.budgetMax) {
-    return "予算下限は予算上限以下にしてください。";
-  }
-
-  if (state.calorieMin !== null && state.calorieMax !== null && state.calorieMin > state.calorieMax) {
-    return "カロリー下限はカロリー上限以下にしてください。";
-  }
-
-  if (state.proteinMin !== null && state.proteinMax !== null && state.proteinMin > state.proteinMax) {
-    return "タンパク質下限はタンパク質上限以下にしてください。";
-  }
-
-  return null;
+function refreshView(dataset: Dataset) {
+  activeDataset = dataset;
+  state.chains = filterSelectableChainIds(state.chains, dataset.chains);
+  writeQueryState(state);
+  render(dataset);
 }
 
 function runGacha(dataset: Dataset) {
   updateNumericState();
-  const error = validateInput();
-  if (error) {
-    window.alert(error);
+  syncValidationState(true);
+  if (hasValidationErrors(validationErrors)) {
+    refreshView(dataset);
     return;
   }
 
+  clearStatusMessage();
   lastResponse = searchMenus(dataset.items, inputState());
   latestDraw = drawResults(lastResponse.results);
   drawVersion += 1;
-  render(dataset);
+  refreshView(dataset);
 }
 
 function bindEvents(dataset: Dataset) {
   document.querySelectorAll<HTMLInputElement>('input[type="number"]').forEach((input) => {
     input.addEventListener("change", () => {
       updateNumericState();
+      syncValidationState(false);
       resetDraw();
-      render(dataset);
+      refreshView(dataset);
     });
   });
 
@@ -379,11 +480,12 @@ function bindEvents(dataset: Dataset) {
       }
       state.chains = [...next];
       resetDraw();
-      render(dataset);
+      refreshView(dataset);
     });
   });
 
-  document.querySelector<HTMLButtonElement>("#spin-gacha")?.addEventListener("click", () => {
+  document.querySelector<HTMLFormElement>("#search-form")?.addEventListener("submit", (event) => {
+    event.preventDefault();
     runGacha(dataset);
   });
 
@@ -392,10 +494,11 @@ function bindEvents(dataset: Dataset) {
     const text = buildShareUrl(state);
     try {
       await navigator.clipboard.writeText(text);
-      window.alert("共有URLをコピーしました。");
+      setStatusMessage("共有URLをコピーしました。", "success", 3000);
     } catch {
-      window.alert(text);
+      setStatusMessage("共有URLをコピーできませんでした。下の共有URLを直接コピーしてください。", "error", 5000);
     }
+    refreshView(dataset);
   });
 }
 
@@ -406,7 +509,13 @@ async function main() {
   }
 
   const dataset = (await response.json()) as Dataset;
-  render(dataset);
+  const initialState = readQueryState(dataset.chains);
+  for (const def of constraintDefs) {
+    state[def.minFieldId] = initialState[def.minFieldId];
+    state[def.maxFieldId] = initialState[def.maxFieldId];
+  }
+  state.chains = [...initialState.chains];
+  refreshView(dataset);
 }
 
 void main();
