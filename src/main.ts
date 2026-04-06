@@ -947,35 +947,38 @@ async function runGacha(dataset: Dataset) {
   setStatusMessage("抽選中...", "info");
   refreshView(dataset);
 
-  const drawStartedAt = window.performance.now();
-  await nextFrame();
+  try {
+    const drawStartedAt = window.performance.now();
+    await nextFrame();
 
-  const items = searchItemsForState(dataset);
-  const searchInput = inputState(items);
+    const items = searchItemsForState(dataset);
+    const searchInput = inputState(items);
 
-  lastResponse = searchMenus(items, searchInput);
+    lastResponse = searchMenus(items, searchInput);
 
-  const waitTime = prefersReducedMotion() ? 0 : Math.max(DRAW_DELAY_MS - (window.performance.now() - drawStartedAt), 0);
-  if (waitTime > 0) {
-    await sleep(waitTime);
+    const waitTime = prefersReducedMotion() ? 0 : Math.max(DRAW_DELAY_MS - (window.performance.now() - drawStartedAt), 0);
+    if (waitTime > 0) {
+      await sleep(waitTime);
+    }
+
+    const { draw, poolSize } = drawFromScoredPool(lastResponse.results, searchInput.budgetMax);
+    latestDraw = draw ? [draw] : [];
+    shouldAnimateLatestResult = latestDraw.length > 0;
+
+    if (latestDraw.length > 0) {
+      setStatusMessage(
+        `結果が出ました。${lastResponse.candidateCount}件の候補から、スコア上位${poolSize}件を重み付きで抽選しました。`,
+        "success",
+      );
+    } else {
+      setStatusMessage("結果が出ました。条件に合う候補が見つかりませんでした。", "error");
+    }
+
+    refreshView(dataset);
+    await revealLatestResult();
+  } finally {
+    isDrawing = false;
   }
-
-  const { draw, poolSize } = drawFromScoredPool(lastResponse.results, searchInput.budgetMax);
-  latestDraw = draw ? [draw] : [];
-  shouldAnimateLatestResult = latestDraw.length > 0;
-  isDrawing = false;
-
-  if (latestDraw.length > 0) {
-    setStatusMessage(
-      `結果が出ました。${lastResponse.candidateCount}件の候補から、スコア上位${poolSize}件を重み付きで抽選しました。`,
-      "success",
-    );
-  } else {
-    setStatusMessage("結果が出ました。条件に合う候補が見つかりませんでした。", "error");
-  }
-
-  refreshView(dataset);
-  await revealLatestResult();
 }
 
 function bindChainEvents(dataset: Dataset) {

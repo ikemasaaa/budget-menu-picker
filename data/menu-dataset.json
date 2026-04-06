@@ -18534,191 +18534,6 @@
     },
     {
       "chainId": "hamazushi",
-      "name": "かけうどん",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 148,
-      "protein": 8.9,
-      "carbs": 25.2,
-      "salt": 2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-466"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "朝そば",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 168,
-      "protein": 10.1,
-      "carbs": 28.6,
-      "salt": 2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-467"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "あさりとあおさのうどん",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 174,
-      "protein": 10.4,
-      "carbs": 29.6,
-      "salt": 2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-468"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えびの天ぷらうどん",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 201,
-      "protein": 12.1,
-      "carbs": 34.2,
-      "salt": 2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-469"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "きつねうどん",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 215,
-      "protein": 12.9,
-      "carbs": 36.6,
-      "salt": 2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-470"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えびの天ぷらそば",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 236,
-      "protein": 14.2,
-      "carbs": 40.1,
-      "salt": 2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-471"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "特製しょう油ラーメン",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 293,
-      "protein": 17.6,
-      "carbs": 49.8,
-      "salt": 2.4,
-      "tags": [
-        "value",
-        "low-calorie",
-        "balanced"
-      ],
-      "id": "hz-472"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "鴨うどん",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 301,
-      "protein": 18.1,
-      "carbs": 51.2,
-      "salt": 2.5,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "hz-473"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "鴨そば",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 335,
-      "protein": 20.1,
-      "carbs": 57,
-      "salt": 2.8,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "hz-474"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "厳選素材の貝節塩ラーメン",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 336,
-      "protein": 20.2,
-      "carbs": 57.1,
-      "salt": 2.8,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "hz-475"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼豚増量 特製しょう油ラーメン",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 363,
-      "protein": 21.8,
-      "carbs": 61.7,
-      "salt": 3,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-476"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼豚増量 厳選素材の貝節塩ラーメン",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 405,
-      "protein": 24.3,
-      "carbs": 68.9,
-      "salt": 3.4,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-477"
-    },
-    {
-      "chainId": "hamazushi",
       "name": "あまおうのあいすもなか",
       "category": "dessert",
       "categoryGroup": "side",
@@ -18730,7 +18545,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-478"
+      "id": "hz-466"
     },
     {
       "chainId": "hamazushi",
@@ -18745,7 +18560,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-479"
+      "id": "hz-467"
     },
     {
       "chainId": "hamazushi",
@@ -18760,7 +18575,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-480"
+      "id": "hz-468"
     },
     {
       "chainId": "hamazushi",
@@ -18775,7 +18590,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-481"
+      "id": "hz-469"
     },
     {
       "chainId": "hamazushi",
@@ -18790,7 +18605,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-482"
+      "id": "hz-470"
     },
     {
       "chainId": "hamazushi",
@@ -18805,7 +18620,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-483"
+      "id": "hz-471"
     },
     {
       "chainId": "hamazushi",
@@ -18820,7 +18635,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-484"
+      "id": "hz-472"
     },
     {
       "chainId": "hamazushi",
@@ -18835,7 +18650,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-485"
+      "id": "hz-473"
     },
     {
       "chainId": "hamazushi",
@@ -18850,7 +18665,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-486"
+      "id": "hz-474"
     },
     {
       "chainId": "hamazushi",
@@ -18865,7 +18680,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-487"
+      "id": "hz-475"
     },
     {
       "chainId": "hamazushi",
@@ -18880,7 +18695,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-488"
+      "id": "hz-476"
     },
     {
       "chainId": "hamazushi",
@@ -18895,7 +18710,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-489"
+      "id": "hz-477"
     },
     {
       "chainId": "hamazushi",
@@ -18910,7 +18725,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-490"
+      "id": "hz-478"
     },
     {
       "chainId": "hamazushi",
@@ -18925,7 +18740,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-491"
+      "id": "hz-479"
     },
     {
       "chainId": "hamazushi",
@@ -18940,7 +18755,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-492"
+      "id": "hz-480"
     },
     {
       "chainId": "hamazushi",
@@ -18955,7 +18770,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-493"
+      "id": "hz-481"
     },
     {
       "chainId": "hamazushi",
@@ -18970,7 +18785,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-494"
+      "id": "hz-482"
     },
     {
       "chainId": "hamazushi",
@@ -18985,7 +18800,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-495"
+      "id": "hz-483"
     },
     {
       "chainId": "hamazushi",
@@ -19000,7 +18815,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-496"
+      "id": "hz-484"
     },
     {
       "chainId": "hamazushi",
@@ -19015,7 +18830,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-497"
+      "id": "hz-485"
     },
     {
       "chainId": "hamazushi",
@@ -19030,7 +18845,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-498"
+      "id": "hz-486"
     },
     {
       "chainId": "hamazushi",
@@ -19045,7 +18860,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-499"
+      "id": "hz-487"
     },
     {
       "chainId": "hamazushi",
@@ -19060,7 +18875,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-500"
+      "id": "hz-488"
     },
     {
       "chainId": "hamazushi",
@@ -19075,7 +18890,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-501"
+      "id": "hz-489"
     },
     {
       "chainId": "hamazushi",
@@ -19090,7 +18905,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-502"
+      "id": "hz-490"
     },
     {
       "chainId": "hamazushi",
@@ -19105,7 +18920,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-503"
+      "id": "hz-491"
     },
     {
       "chainId": "hamazushi",
@@ -19120,7 +18935,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-504"
+      "id": "hz-492"
     },
     {
       "chainId": "hamazushi",
@@ -19135,53 +18950,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-505"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えび天きつねうどん",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 330,
-      "calories": 279,
-      "protein": 16.7,
-      "carbs": 47.4,
-      "salt": 2.3,
-      "tags": [
-        "low-calorie",
-        "balanced"
-      ],
-      "id": "hz-506"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えび天鴨うどん",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 330,
-      "calories": 364,
-      "protein": 21.8,
-      "carbs": 61.9,
-      "salt": 3,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-507"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えび天鴨そば",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 330,
-      "calories": 399,
-      "protein": 23.9,
-      "carbs": 67.8,
-      "salt": 3.3,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-508"
+      "id": "hz-493"
     },
     {
       "chainId": "hamazushi",
@@ -19196,7 +18965,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-509"
+      "id": "hz-494"
     },
     {
       "chainId": "hamazushi",
@@ -19211,7 +18980,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-510"
+      "id": "hz-495"
     },
     {
       "chainId": "hamazushi",
@@ -19226,7 +18995,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-511"
+      "id": "hz-496"
     },
     {
       "chainId": "hamazushi",
@@ -19241,7 +19010,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-512"
+      "id": "hz-497"
     },
     {
       "chainId": "hamazushi",
@@ -19256,7 +19025,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-513"
+      "id": "hz-498"
     },
     {
       "chainId": "hamazushi",
@@ -19271,7 +19040,22 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-514"
+      "id": "hz-499"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "かけうどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 148,
+      "protein": 8.9,
+      "carbs": 25.2,
+      "salt": 2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-500"
     },
     {
       "chainId": "hamazushi",
@@ -19286,7 +19070,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-515"
+      "id": "hz-501"
     },
     {
       "chainId": "hamazushi",
@@ -19301,7 +19085,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-516"
+      "id": "hz-502"
     },
     {
       "chainId": "hamazushi",
@@ -19316,7 +19100,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-517"
+      "id": "hz-503"
     },
     {
       "chainId": "hamazushi",
@@ -19331,7 +19115,114 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-518"
+      "id": "hz-504"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "朝そば",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 168,
+      "protein": 10.1,
+      "carbs": 28.6,
+      "salt": 2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-505"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あさりとあおさのうどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 174,
+      "protein": 10.4,
+      "carbs": 29.6,
+      "salt": 2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-506"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えびの天ぷらうどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 201,
+      "protein": 12.1,
+      "carbs": 34.2,
+      "salt": 2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-507"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "きつねうどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 215,
+      "protein": 12.9,
+      "carbs": 36.6,
+      "salt": 2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-508"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えびの天ぷらそば",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 236,
+      "protein": 14.2,
+      "carbs": 40.1,
+      "salt": 2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-509"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えび天きつねうどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 279,
+      "protein": 16.7,
+      "carbs": 47.4,
+      "salt": 2.3,
+      "tags": [
+        "low-calorie",
+        "balanced"
+      ],
+      "id": "hz-510"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "特製しょう油ラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 293,
+      "protein": 17.6,
+      "carbs": 49.8,
+      "salt": 2.4,
+      "tags": [
+        "low-calorie",
+        "balanced"
+      ],
+      "id": "hz-511"
     },
     {
       "chainId": "hamazushi",
@@ -19346,7 +19237,7 @@
       "tags": [
         "balanced"
       ],
-      "id": "hz-519"
+      "id": "hz-512"
     },
     {
       "chainId": "hamazushi",
@@ -19361,7 +19252,7 @@
       "tags": [
         "balanced"
       ],
-      "id": "hz-520"
+      "id": "hz-513"
     },
     {
       "chainId": "hamazushi",
@@ -19376,7 +19267,7 @@
       "tags": [
         "balanced"
       ],
-      "id": "hz-521"
+      "id": "hz-514"
     },
     {
       "chainId": "hamazushi",
@@ -19391,7 +19282,78 @@
       "tags": [
         "balanced"
       ],
-      "id": "hz-522"
+      "id": "hz-515"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "鴨うどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 301,
+      "protein": 18.1,
+      "carbs": 51.2,
+      "salt": 2.5,
+      "tags": [
+        "balanced"
+      ],
+      "id": "hz-516"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "鴨そば",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 335,
+      "protein": 20.1,
+      "carbs": 57,
+      "salt": 2.8,
+      "tags": [
+        "balanced"
+      ],
+      "id": "hz-517"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "厳選素材の貝節塩ラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 336,
+      "protein": 20.2,
+      "carbs": 57.1,
+      "salt": 2.8,
+      "tags": [
+        "balanced"
+      ],
+      "id": "hz-518"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "焼豚増量 特製しょう油ラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 363,
+      "protein": 21.8,
+      "carbs": 61.7,
+      "salt": 3,
+      "tags": [],
+      "id": "hz-519"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えび天鴨うどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 364,
+      "protein": 21.8,
+      "carbs": 61.9,
+      "salt": 3,
+      "tags": [],
+      "id": "hz-520"
     },
     {
       "chainId": "hamazushi",
@@ -19404,6 +19366,36 @@
       "carbs": 65.1,
       "salt": 3.2,
       "tags": [],
+      "id": "hz-521"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えび天鴨そば",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 399,
+      "protein": 23.9,
+      "carbs": 67.8,
+      "salt": 3.3,
+      "tags": [
+        "value"
+      ],
+      "id": "hz-522"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "焼豚増量 厳選素材の貝節塩ラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 405,
+      "protein": 24.3,
+      "carbs": 68.9,
+      "salt": 3.4,
+      "tags": [
+        "value"
+      ],
       "id": "hz-523"
     },
     {

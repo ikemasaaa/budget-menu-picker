@@ -1303,8 +1303,8 @@ function estimateKuraPrice(name: string, category: string): number {
 
 function estimateHamaPrice(name: string, category: string): number {
   if (category === "noodle") {
-    if (name.includes("えび天")) return 330;
-    return 260;
+    if (name.includes("えび天")) return 396;
+    return 396;
   }
   if (category === "dessert") {
     if (name.includes("パフェ")) return 300;
