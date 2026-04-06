@@ -164,7 +164,10 @@ function sleep(ms: number): Promise<void> {
 
 function nextFrame(): Promise<void> {
   return new Promise((resolve) => {
-    window.requestAnimationFrame(() => resolve());
+    let resolved = false;
+    const done = () => { if (!resolved) { resolved = true; resolve(); } };
+    window.requestAnimationFrame(done);
+    window.setTimeout(done, 200);
   });
 }
 
@@ -978,9 +981,9 @@ async function runGacha(dataset: Dataset) {
     setStatusMessage("エラーが発生しました。もう一度お試しください。", "error");
   } finally {
     isDrawing = false;
+    refreshView(dataset);
   }
 
-  refreshView(dataset);
   await revealLatestResult();
 }
 
