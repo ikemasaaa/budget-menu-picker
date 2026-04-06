@@ -974,11 +974,14 @@ async function runGacha(dataset: Dataset) {
       setStatusMessage("結果が出ました。条件に合う候補が見つかりませんでした。", "error");
     }
 
-    refreshView(dataset);
-    await revealLatestResult();
+  } catch {
+    setStatusMessage("エラーが発生しました。もう一度お試しください。", "error");
   } finally {
     isDrawing = false;
   }
+
+  refreshView(dataset);
+  await revealLatestResult();
 }
 
 function bindChainEvents(dataset: Dataset) {
