@@ -1,5 +1,17 @@
 export type ChainStatus = "active" | "hidden" | "pending";
 
+export type NutrientField = "calories" | "protein" | "carbs" | "salt";
+
+export type NutrientReliability = "official" | "estimated";
+
+export type CategoryGroup = "signature" | "side" | "dessert" | "drink";
+
+export type PriceTier = {
+  tierId: string;
+  label: string;
+  priceMultiplier: number;
+};
+
 export type Chain = {
   id: string;
   name: string;
@@ -8,6 +20,9 @@ export type Chain = {
   scrapeDate: string;
   sourceLabel: string;
   sourceUrl: string;
+  nutrientReliability: Record<NutrientField, NutrientReliability>;
+  priceNote?: string;
+  priceTiers?: PriceTier[];
 };
 
 export type MenuItem = {
@@ -15,9 +30,12 @@ export type MenuItem = {
   chainId: string;
   name: string;
   category: string;
+  categoryGroup: CategoryGroup;
   price: number;
-  calories: number;
-  protein: number;
+  calories: number | null | undefined;
+  protein: number | null | undefined;
+  carbs: number | null | undefined;
+  salt: number | null | undefined;
   tags: string[];
 };
 
@@ -32,7 +50,7 @@ export type Dataset = {
   items: MenuItem[];
 };
 
-export type ConstraintId = "budget" | "calorie" | "protein";
+export type ConstraintId = "budget" | "calorie" | "protein" | "carbs" | "salt";
 
 export type NumericFieldId = `${ConstraintId}${"Min" | "Max"}`;
 
@@ -80,10 +98,31 @@ export const constraintDefs = [
     minFieldId: "proteinMin",
     maxFieldId: "proteinMax",
   },
+  {
+    id: "carbs",
+    label: "炭水化物",
+    min: 0,
+    max: 500,
+    step: 5,
+    suffix: "g",
+    minFieldId: "carbsMin",
+    maxFieldId: "carbsMax",
+  },
+  {
+    id: "salt",
+    label: "塩分",
+    min: 0,
+    max: 20,
+    step: 0.1,
+    suffix: "g",
+    minFieldId: "saltMin",
+    maxFieldId: "saltMax",
+  },
 ] as const satisfies readonly ConstraintDef[];
 
 export type SearchInput = ConstraintState & {
-  chainIds: string[];
+  chainId: string;
+  categoryGroupFilter: CategoryGroup[] | null;
   maxItemsTotal: number;
   candidateLimit: number;
 };
@@ -99,6 +138,8 @@ export type SearchResult = {
   totalPrice: number;
   totalCalories: number;
   totalProtein: number;
+  totalCarbs: number;
+  totalSalt: number;
   totalQuantity: number;
 };
 
@@ -121,5 +162,6 @@ export type SearchResponse = {
 };
 
 export type QueryState = ConstraintState & {
-  chains: string[];
+  chainId: string;
+  categoryGroupFilter: CategoryGroup[] | null;
 };

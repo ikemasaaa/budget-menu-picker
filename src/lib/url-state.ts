@@ -1,19 +1,15 @@
-import { constraintDefs, type Chain, type ConstraintState, type QueryState } from "./types.ts";
+import { constraintDefs, type CategoryGroup, type Chain, type ConstraintState, type QueryState } from "./types.ts";
 import { filterSelectableChainIds } from "./chain-selection.ts";
 
-const DEFAULT_CHAINS = [
-  "yoshinoya",
-  "matsuya",
-  "mcdonalds",
-  "sushiro",
-];
+export const DEFAULT_CHAIN_ID = "yoshinoya";
+const CATEGORY_GROUPS: CategoryGroup[] = ["signature", "side", "dessert", "drink"];
 
 function parseOptionalNumber(raw: string | null): number | null {
   if (raw === null || raw.trim() === "") {
     return null;
   }
 
-  const parsed = Number(raw);
+  const parsed = Number(raw.replaceAll(",", ""));
   return Number.isFinite(parsed) && parsed >= 0 ? parsed : null;
 }
 
@@ -39,26 +35,49 @@ function appendConstraintParams(params: URLSearchParams, state: ConstraintState)
   }
 }
 
+function readCategoryGroupFilter(params: URLSearchParams): CategoryGroup[] | null {
+  const raw = params.get("categoryFilter");
+  if (!raw) {
+    return null;
+  }
+
+  const values = raw
+    .split(",")
+    .map((value) => value.trim())
+    .filter((value): value is CategoryGroup => CATEGORY_GROUPS.includes(value as CategoryGroup));
+
+  return values.length > 0 ? values : null;
+}
+
+function appendCategoryGroupFilter(params: URLSearchParams, filter: CategoryGroup[] | null) {
+  if (filter === null) {
+    return;
+  }
+
+  params.set("categoryFilter", filter.join(","));
+}
+
 export function readQueryState(chains: Chain[]): QueryState {
   const params = new URLSearchParams(window.location.search);
-  const selectedChains = filterSelectableChainIds(
-    (params.get("chains") ?? "")
-      .split(",")
-      .map((value) => value.trim())
-      .filter(Boolean),
-    chains,
-  );
+  const selectedChainId = filterSelectableChainIds([params.get("chain") ?? ""], chains)[0];
+  const fallbackChainId = filterSelectableChainIds([DEFAULT_CHAIN_ID], chains)[0]
+    ?? filterSelectableChainIds(chains.map((chain) => chain.id), chains)[0]
+    ?? "";
 
   return {
     ...readConstraintState(params),
-    chains: selectedChains.length > 0 ? selectedChains : filterSelectableChainIds(DEFAULT_CHAINS, chains),
+    chainId: selectedChainId ?? fallbackChainId,
+    categoryGroupFilter: readCategoryGroupFilter(params),
   };
 }
 
 export function writeQueryState(state: QueryState) {
   const params = new URLSearchParams();
   appendConstraintParams(params, state);
-  params.set("chains", state.chains.join(","));
+  appendCategoryGroupFilter(params, state.categoryGroupFilter);
+  if (state.chainId) {
+    params.set("chain", state.chainId);
+  }
 
   const query = params.toString();
   const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
@@ -71,7 +90,10 @@ export function buildShareUrl(state: QueryState): string {
 
   const params = new URLSearchParams();
   appendConstraintParams(params, state);
-  params.set("chains", state.chains.join(","));
+  appendCategoryGroupFilter(params, state.categoryGroupFilter);
+  if (state.chainId) {
+    params.set("chain", state.chainId);
+  }
   url.search = params.toString();
 
   return url.toString();
