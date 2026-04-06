@@ -4603,22 +4603,6 @@
     },
     {
       "chainId": "mcdonalds",
-      "name": "ハッシュポテト",
-      "category": "side",
-      "categoryGroup": "side",
-      "price": 150,
-      "calories": 157,
-      "protein": 1.4,
-      "carbs": 14.8,
-      "salt": 0.8,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "mc-001"
-    },
-    {
-      "chainId": "mcdonalds",
       "name": "ホットアップルパイ",
       "category": "dessert",
       "categoryGroup": "side",
@@ -4631,7 +4615,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "mc-002"
+      "id": "mc-001"
     },
     {
       "chainId": "mcdonalds",
@@ -4646,7 +4630,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "mc-003"
+      "id": "mc-002"
     },
     {
       "chainId": "mcdonalds",
@@ -4662,7 +4646,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "mc-004"
+      "id": "mc-003"
     },
     {
       "chainId": "mcdonalds",
@@ -4678,7 +4662,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "mc-005"
+      "id": "mc-004"
     },
     {
       "chainId": "mcdonalds",
@@ -4693,7 +4677,7 @@
       "tags": [
         "value"
       ],
-      "id": "mc-006"
+      "id": "mc-005"
     },
     {
       "chainId": "mcdonalds",
@@ -4709,38 +4693,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "mc-007"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "プチパンケーキ",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 210,
-      "calories": 161,
-      "protein": 3.8,
-      "carbs": 26.4,
-      "salt": 0.8,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "mc-008"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "ソーセージマフィン",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 210,
-      "calories": 397,
-      "protein": 15.5,
-      "carbs": 27.1,
-      "salt": 1.7,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "mc-009"
+      "id": "mc-006"
     },
     {
       "chainId": "mcdonalds",
@@ -4756,7 +4709,7 @@
         "value",
         "balanced"
       ],
-      "id": "mc-010"
+      "id": "mc-007"
     },
     {
       "chainId": "mcdonalds",
@@ -4771,7 +4724,7 @@
       "tags": [
         "value"
       ],
-      "id": "mc-011"
+      "id": "mc-008"
     },
     {
       "chainId": "mcdonalds",
@@ -4786,7 +4739,7 @@
       "tags": [
         "value"
       ],
-      "id": "mc-012"
+      "id": "mc-009"
     },
     {
       "chainId": "mcdonalds",
@@ -4802,38 +4755,7 @@
         "value",
         "balanced"
       ],
-      "id": "mc-013"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "エッグマックマフィン",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 260,
-      "calories": 310,
-      "protein": 18.6,
-      "carbs": 27.2,
-      "salt": 1.5,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "mc-014"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "マックグリドル ソーセージ",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 270,
-      "calories": 414,
-      "protein": 10.5,
-      "carbs": 40.4,
-      "salt": 2.4,
-      "tags": [
-        "value"
-      ],
-      "id": "mc-015"
+      "id": "mc-010"
     },
     {
       "chainId": "mcdonalds",
@@ -4849,7 +4771,7 @@
         "value",
         "balanced"
       ],
-      "id": "mc-016"
+      "id": "mc-011"
     },
     {
       "chainId": "mcdonalds",
@@ -4864,7 +4786,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "mc-017"
+      "id": "mc-012"
     },
     {
       "chainId": "mcdonalds",
@@ -4880,7 +4802,7 @@
         "low-calorie",
         "balanced"
       ],
-      "id": "mc-018"
+      "id": "mc-013"
     },
     {
       "chainId": "mcdonalds",
@@ -4896,7 +4818,7 @@
         "value",
         "balanced"
       ],
-      "id": "mc-019"
+      "id": "mc-014"
     },
     {
       "chainId": "mcdonalds",
@@ -4911,51 +4833,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "mc-020"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "マックグリドル ベーコンエッグ",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 310,
-      "calories": 382,
-      "protein": 15.6,
-      "carbs": 41.3,
-      "salt": 2.6,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "mc-021"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "ホットケーキ",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 330,
-      "calories": 323,
-      "protein": 8.3,
-      "carbs": 53.5,
-      "salt": 1.4,
-      "tags": [],
-      "id": "mc-022"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "チキンマックマフィン",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 330,
-      "calories": 398,
-      "protein": 15,
-      "carbs": 38.4,
-      "salt": 2,
-      "tags": [
-        "value"
-      ],
-      "id": "mc-023"
+      "id": "mc-015"
     },
     {
       "chainId": "mcdonalds",
@@ -4970,23 +4848,7 @@
       "tags": [
         "value"
       ],
-      "id": "mc-024"
-    },
-    {
-      "chainId": "mcdonalds",
-      "name": "ソーセージエッグマフィン",
-      "category": "breakfast",
-      "categoryGroup": "signature",
-      "price": 330,
-      "calories": 477,
-      "protein": 21.9,
-      "carbs": 27.3,
-      "salt": 1.8,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "mc-025"
+      "id": "mc-016"
     },
     {
       "chainId": "mcdonalds",
@@ -5001,7 +4863,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "mc-026"
+      "id": "mc-017"
     },
     {
       "chainId": "mcdonalds",
@@ -5016,7 +4878,7 @@
       "tags": [
         "balanced"
       ],
-      "id": "mc-027"
+      "id": "mc-018"
     },
     {
       "chainId": "mcdonalds",
@@ -5031,7 +4893,7 @@
       "tags": [
         "value"
       ],
-      "id": "mc-028"
+      "id": "mc-019"
     },
     {
       "chainId": "mcdonalds",
@@ -5044,7 +4906,7 @@
       "carbs": 37.4,
       "salt": 1.6,
       "tags": [],
-      "id": "mc-029"
+      "id": "mc-020"
     },
     {
       "chainId": "mcdonalds",
@@ -5057,7 +4919,7 @@
       "carbs": 49.5,
       "salt": 2.2,
       "tags": [],
-      "id": "mc-030"
+      "id": "mc-021"
     },
     {
       "chainId": "mcdonalds",
@@ -5072,7 +4934,7 @@
       "tags": [
         "value"
       ],
-      "id": "mc-031"
+      "id": "mc-022"
     },
     {
       "chainId": "mcdonalds",
@@ -5089,7 +4951,7 @@
         "high-protein",
         "balanced"
       ],
-      "id": "mc-032"
+      "id": "mc-023"
     },
     {
       "chainId": "mcdonalds",
@@ -5106,7 +4968,7 @@
         "high-protein",
         "balanced"
       ],
-      "id": "mc-033"
+      "id": "mc-024"
     },
     {
       "chainId": "mcdonalds",
@@ -5121,7 +4983,7 @@
       "tags": [
         "value"
       ],
-      "id": "mc-034"
+      "id": "mc-025"
     },
     {
       "chainId": "mcdonalds",
@@ -5137,7 +4999,7 @@
         "value",
         "high-protein"
       ],
-      "id": "mc-035"
+      "id": "mc-026"
     },
     {
       "chainId": "mcdonalds",
@@ -5152,7 +5014,7 @@
       "tags": [
         "high-protein"
       ],
-      "id": "mc-036"
+      "id": "mc-027"
     },
     {
       "chainId": "mcdonalds",
@@ -5167,7 +5029,7 @@
       "tags": [
         "high-protein"
       ],
-      "id": "mc-037"
+      "id": "mc-028"
     },
     {
       "chainId": "sushiro",

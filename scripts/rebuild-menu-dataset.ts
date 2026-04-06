@@ -991,6 +991,14 @@ function inferMcdonaldsCategory(name: string): { category: string; categoryGroup
   return { category: "side", categoryGroup: "side" };
 }
 
+function isMcdonaldsBreakfastOnly(name: string, category: string): boolean {
+  if (category === "breakfast") {
+    return true;
+  }
+
+  return name === "ハッシュポテト" || name.includes("マックサンド");
+}
+
 function estimateMcdonaldsPrice(name: string): number {
   if (name.includes("炙り醤油風 たまごベーコン肉厚ビーフ")) return 570;
   if (name.includes("炙り醤油風 ダブル肉厚ビーフ")) return 680;
@@ -1036,6 +1044,10 @@ function buildMcdonaldsItems(tsvText: string, pdfPrices: Record<string, number>)
     }
 
     const category = inferMcdonaldsCategory(name);
+    if (isMcdonaldsBreakfastOnly(name, category.category)) {
+      continue;
+    }
+
     const price = MCDONALDS_PRICE_OVERRIDES[name] ?? pdfPrices[name] ?? estimateMcdonaldsPrice(name);
 
     items.push(
