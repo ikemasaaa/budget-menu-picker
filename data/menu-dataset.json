@@ -11452,7 +11452,7 @@
     },
     {
       "chainId": "hamazushi",
-      "name": "ほたて(北海道・青森県産)",
+      "name": "白とり貝",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -11467,36 +11467,6 @@
     },
     {
       "chainId": "hamazushi",
-      "name": "白とり貝",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 34,
-      "protein": 4,
-      "carbs": 2.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-003"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙りほたて(北海道・青森県産)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 34,
-      "protein": 4,
-      "carbs": 2.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-004"
-    },
-    {
-      "chainId": "hamazushi",
       "name": "ほたて(粗切り本わさび)",
       "category": "sushi",
       "categoryGroup": "signature",
@@ -11508,7 +11478,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-005"
+      "id": "hz-003"
     },
     {
       "chainId": "hamazushi",
@@ -11523,22 +11493,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-006"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "うに軍艦",
-      "category": "gunkan",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 38,
-      "protein": 4,
-      "carbs": 3.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-007"
+      "id": "hz-004"
     },
     {
       "chainId": "hamazushi",
@@ -11553,7 +11508,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-008"
+      "id": "hz-005"
     },
     {
       "chainId": "hamazushi",
@@ -11568,22 +11523,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-009"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "うにいくら軍艦",
-      "category": "gunkan",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 43,
-      "protein": 4,
-      "carbs": 4.5,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-010"
+      "id": "hz-006"
     },
     {
       "chainId": "hamazushi",
@@ -11598,7 +11538,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-011"
+      "id": "hz-007"
     },
     {
       "chainId": "hamazushi",
@@ -11613,7 +11553,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-012"
+      "id": "hz-008"
     },
     {
       "chainId": "hamazushi",
@@ -11628,7 +11568,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-013"
+      "id": "hz-009"
     },
     {
       "chainId": "hamazushi",
@@ -11643,7 +11583,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-014"
+      "id": "hz-010"
     },
     {
       "chainId": "hamazushi",
@@ -11658,7 +11598,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-015"
+      "id": "hz-011"
     },
     {
       "chainId": "hamazushi",
@@ -11673,7 +11613,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-016"
+      "id": "hz-012"
     },
     {
       "chainId": "hamazushi",
@@ -11688,7 +11628,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-017"
+      "id": "hz-013"
     },
     {
       "chainId": "hamazushi",
@@ -11703,22 +11643,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-018"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "ローストビーフ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 46,
-      "protein": 4,
-      "carbs": 5.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-019"
+      "id": "hz-014"
     },
     {
       "chainId": "hamazushi",
@@ -11733,7 +11658,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-020"
+      "id": "hz-015"
     },
     {
       "chainId": "hamazushi",
@@ -11748,7 +11673,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-021"
+      "id": "hz-016"
     },
     {
       "chainId": "hamazushi",
@@ -11763,7 +11688,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-022"
+      "id": "hz-017"
     },
     {
       "chainId": "hamazushi",
@@ -11778,7 +11703,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-023"
+      "id": "hz-018"
     },
     {
       "chainId": "hamazushi",
@@ -11793,22 +11718,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-024"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "いくら",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 48,
-      "protein": 4,
-      "carbs": 5.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-025"
+      "id": "hz-019"
     },
     {
       "chainId": "hamazushi",
@@ -11823,7 +11733,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-026"
+      "id": "hz-020"
     },
     {
       "chainId": "hamazushi",
@@ -11838,22 +11748,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-027"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "ほたてレアステーキ(北海道・青森県産)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 50,
-      "protein": 4,
-      "carbs": 6.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-028"
+      "id": "hz-021"
     },
     {
       "chainId": "hamazushi",
@@ -11868,22 +11763,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-029"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "北海道産大切りさくらます",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 50,
-      "protein": 4,
-      "carbs": 6.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-030"
+      "id": "hz-022"
     },
     {
       "chainId": "hamazushi",
@@ -11898,7 +11778,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-031"
+      "id": "hz-023"
     },
     {
       "chainId": "hamazushi",
@@ -11913,7 +11793,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-032"
+      "id": "hz-024"
     },
     {
       "chainId": "hamazushi",
@@ -11928,22 +11808,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-033"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えび天",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 54,
-      "protein": 4,
-      "carbs": 7.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-034"
+      "id": "hz-025"
     },
     {
       "chainId": "hamazushi",
@@ -11958,7 +11823,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-035"
+      "id": "hz-026"
     },
     {
       "chainId": "hamazushi",
@@ -11973,7 +11838,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-036"
+      "id": "hz-027"
     },
     {
       "chainId": "hamazushi",
@@ -11988,7 +11853,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-037"
+      "id": "hz-028"
     },
     {
       "chainId": "hamazushi",
@@ -12003,7 +11868,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-038"
+      "id": "hz-029"
     },
     {
       "chainId": "hamazushi",
@@ -12018,7 +11883,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-039"
+      "id": "hz-030"
     },
     {
       "chainId": "hamazushi",
@@ -12033,7 +11898,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-040"
+      "id": "hz-031"
     },
     {
       "chainId": "hamazushi",
@@ -12048,7 +11913,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-041"
+      "id": "hz-032"
     },
     {
       "chainId": "hamazushi",
@@ -12063,7 +11928,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-042"
+      "id": "hz-033"
     },
     {
       "chainId": "hamazushi",
@@ -12078,7 +11943,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-043"
+      "id": "hz-034"
     },
     {
       "chainId": "hamazushi",
@@ -12093,7 +11958,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-044"
+      "id": "hz-035"
     },
     {
       "chainId": "hamazushi",
@@ -12108,11 +11973,146 @@
       "tags": [
         "low-calorie"
       ],
+      "id": "hz-036"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "いかオクラ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-037"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "いか軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-038"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えびアボカドマヨ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-039"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えびマヨ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-040"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "かっぱ巻き",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-041"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "きゅうり巻き",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-042"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "コーン軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-043"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "シーフードサラダ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-044"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ジューシーミートボール軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
       "id": "hz-045"
     },
     {
       "chainId": "hamazushi",
-      "name": "つぶ貝",
+      "name": "たまご",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -12127,6 +12127,201 @@
     },
     {
       "chainId": "hamazushi",
+      "name": "ツナサラダ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-047"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ツナ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-048"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "とろたくつつみ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-049"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "まぐろアボカド",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-050"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "まぐろユッケ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-051"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "まぐろ二種盛り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-052"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ヤリイカ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-053"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ヤリイカゆず塩",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-054"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "玉子サラダ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-055"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "焼きサバ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-056"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "焼きハラス",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-057"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大葉漬けヤリイカ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-058"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "鉄火巻き",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-059"
+    },
+    {
+      "chainId": "hamazushi",
       "name": "天然赤えびレアステーキ",
       "category": "sushi",
       "categoryGroup": "signature",
@@ -12138,7 +12333,52 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-047"
+      "id": "hz-060"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "唐揚げ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-061"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "納豆巻き",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-062"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "梅しそきゅうり巻き",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-063"
     },
     {
       "chainId": "hamazushi",
@@ -12153,7 +12393,22 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-048"
+      "id": "hz-064"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙りれんこんのはさみ揚げ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 110,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-065"
     },
     {
       "chainId": "hamazushi",
@@ -12168,7 +12423,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-049"
+      "id": "hz-066"
     },
     {
       "chainId": "hamazushi",
@@ -12183,7 +12438,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-050"
+      "id": "hz-067"
     },
     {
       "chainId": "hamazushi",
@@ -12198,7 +12453,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-051"
+      "id": "hz-068"
     },
     {
       "chainId": "hamazushi",
@@ -12213,7 +12468,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-052"
+      "id": "hz-069"
     },
     {
       "chainId": "hamazushi",
@@ -12228,7 +12483,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-053"
+      "id": "hz-070"
     },
     {
       "chainId": "hamazushi",
@@ -12243,7 +12498,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-054"
+      "id": "hz-071"
     },
     {
       "chainId": "hamazushi",
@@ -12258,7 +12513,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-055"
+      "id": "hz-072"
     },
     {
       "chainId": "hamazushi",
@@ -12273,7 +12528,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-056"
+      "id": "hz-073"
     },
     {
       "chainId": "hamazushi",
@@ -12288,7 +12543,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-057"
+      "id": "hz-074"
     },
     {
       "chainId": "hamazushi",
@@ -12303,7 +12558,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-058"
+      "id": "hz-075"
     },
     {
       "chainId": "hamazushi",
@@ -12318,7 +12573,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-059"
+      "id": "hz-076"
     },
     {
       "chainId": "hamazushi",
@@ -12333,7 +12588,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-060"
+      "id": "hz-077"
     },
     {
       "chainId": "hamazushi",
@@ -12348,7 +12603,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-061"
+      "id": "hz-078"
     },
     {
       "chainId": "hamazushi",
@@ -12363,22 +12618,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-062"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "甘えび",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 64,
-      "protein": 4,
-      "carbs": 9.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-063"
+      "id": "hz-079"
     },
     {
       "chainId": "hamazushi",
@@ -12393,7 +12633,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-064"
+      "id": "hz-080"
     },
     {
       "chainId": "hamazushi",
@@ -12408,7 +12648,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-065"
+      "id": "hz-081"
     },
     {
       "chainId": "hamazushi",
@@ -12423,7 +12663,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-066"
+      "id": "hz-082"
     },
     {
       "chainId": "hamazushi",
@@ -12438,22 +12678,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-067"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "（軍艦） 桜えび軍艦",
-      "category": "gunkan",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 65,
-      "protein": 4,
-      "carbs": 10,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-068"
+      "id": "hz-083"
     },
     {
       "chainId": "hamazushi",
@@ -12468,22 +12693,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-069"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "生えび",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 65,
-      "protein": 4,
-      "carbs": 10,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-070"
+      "id": "hz-084"
     },
     {
       "chainId": "hamazushi",
@@ -12498,7 +12708,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-071"
+      "id": "hz-085"
     },
     {
       "chainId": "hamazushi",
@@ -12513,7 +12723,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-072"
+      "id": "hz-086"
     },
     {
       "chainId": "hamazushi",
@@ -12528,7 +12738,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-073"
+      "id": "hz-087"
     },
     {
       "chainId": "hamazushi",
@@ -12543,22 +12753,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-074"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "真いか",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 66,
-      "protein": 4,
-      "carbs": 10.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-075"
+      "id": "hz-088"
     },
     {
       "chainId": "hamazushi",
@@ -12573,7 +12768,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-076"
+      "id": "hz-089"
     },
     {
       "chainId": "hamazushi",
@@ -12588,7 +12783,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-077"
+      "id": "hz-090"
     },
     {
       "chainId": "hamazushi",
@@ -12603,7 +12798,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-078"
+      "id": "hz-091"
     },
     {
       "chainId": "hamazushi",
@@ -12618,7 +12813,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-079"
+      "id": "hz-092"
     },
     {
       "chainId": "hamazushi",
@@ -12633,37 +12828,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-080"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "真だこ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 68,
-      "protein": 4,
-      "carbs": 10.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-081"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "赤貝",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 68,
-      "protein": 4,
-      "carbs": 10.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-082"
+      "id": "hz-093"
     },
     {
       "chainId": "hamazushi",
@@ -12678,22 +12843,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-083"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "福井県水揚げ漬けほたるいか",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 68,
-      "protein": 4,
-      "carbs": 10.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-084"
+      "id": "hz-094"
     },
     {
       "chainId": "hamazushi",
@@ -12708,7 +12858,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-085"
+      "id": "hz-095"
     },
     {
       "chainId": "hamazushi",
@@ -12723,7 +12873,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-086"
+      "id": "hz-096"
     },
     {
       "chainId": "hamazushi",
@@ -12738,7 +12888,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-087"
+      "id": "hz-097"
     },
     {
       "chainId": "hamazushi",
@@ -12753,7 +12903,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-088"
+      "id": "hz-098"
     },
     {
       "chainId": "hamazushi",
@@ -12768,7 +12918,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-089"
+      "id": "hz-099"
     },
     {
       "chainId": "hamazushi",
@@ -12783,7 +12933,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-090"
+      "id": "hz-100"
     },
     {
       "chainId": "hamazushi",
@@ -12798,7 +12948,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-091"
+      "id": "hz-101"
     },
     {
       "chainId": "hamazushi",
@@ -12813,7 +12963,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-092"
+      "id": "hz-102"
     },
     {
       "chainId": "hamazushi",
@@ -12828,7 +12978,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-093"
+      "id": "hz-103"
     },
     {
       "chainId": "hamazushi",
@@ -12843,7 +12993,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-094"
+      "id": "hz-104"
     },
     {
       "chainId": "hamazushi",
@@ -12858,22 +13008,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-095"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "厳選まぐろ中とろ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 71,
-      "protein": 4,
-      "carbs": 11.5,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-096"
+      "id": "hz-105"
     },
     {
       "chainId": "hamazushi",
@@ -12888,7 +13023,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-097"
+      "id": "hz-106"
     },
     {
       "chainId": "hamazushi",
@@ -12903,7 +13038,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-098"
+      "id": "hz-107"
     },
     {
       "chainId": "hamazushi",
@@ -12918,7 +13053,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-099"
+      "id": "hz-108"
     },
     {
       "chainId": "hamazushi",
@@ -12933,52 +13068,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-100"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "地中海産本鮪大とろ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 71,
-      "protein": 4,
-      "carbs": 11.5,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-101"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙り厳選まぐろ中とろゆず塩",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 71,
-      "protein": 4,
-      "carbs": 11.5,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-102"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙り地中海産本鮪大とろゆず塩",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 71,
-      "protein": 4,
-      "carbs": 11.5,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-103"
+      "id": "hz-109"
     },
     {
       "chainId": "hamazushi",
@@ -12993,22 +13083,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-104"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "直火焼き牛たん握り",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 72,
-      "protein": 4,
-      "carbs": 11.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-105"
+      "id": "hz-110"
     },
     {
       "chainId": "hamazushi",
@@ -13023,11 +13098,11 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-106"
+      "id": "hz-111"
     },
     {
       "chainId": "hamazushi",
-      "name": "（にぎり） アカイカ 紀州産梅おろし盛り",
+      "name": "アカイカ 紀州産梅おろし盛り",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -13038,7 +13113,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-107"
+      "id": "hz-112"
     },
     {
       "chainId": "hamazushi",
@@ -13053,22 +13128,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-108"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "（にぎり） 直火焼き牛たん握り(ねぎ盛り)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 74,
-      "protein": 4,
-      "carbs": 12.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-109"
+      "id": "hz-113"
     },
     {
       "chainId": "hamazushi",
@@ -13083,22 +13143,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-110"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "特製漬け中とろ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 74,
-      "protein": 4,
-      "carbs": 12.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-111"
+      "id": "hz-114"
     },
     {
       "chainId": "hamazushi",
@@ -13113,7 +13158,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-112"
+      "id": "hz-115"
     },
     {
       "chainId": "hamazushi",
@@ -13128,7 +13173,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-113"
+      "id": "hz-116"
     },
     {
       "chainId": "hamazushi",
@@ -13143,7 +13188,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-114"
+      "id": "hz-117"
     },
     {
       "chainId": "hamazushi",
@@ -13158,7 +13203,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-115"
+      "id": "hz-118"
     },
     {
       "chainId": "hamazushi",
@@ -13173,7 +13218,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-116"
+      "id": "hz-119"
     },
     {
       "chainId": "hamazushi",
@@ -13188,11 +13233,11 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-117"
+      "id": "hz-120"
     },
     {
       "chainId": "hamazushi",
-      "name": "（つつみ） 山盛り本鮪中落ちつつみ",
+      "name": "山盛り本鮪中落ちつつみ",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -13203,7 +13248,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-118"
+      "id": "hz-121"
     },
     {
       "chainId": "hamazushi",
@@ -13218,22 +13263,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-119"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "宮城県産とろいわし",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 78,
-      "protein": 4,
-      "carbs": 13.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-120"
+      "id": "hz-122"
     },
     {
       "chainId": "hamazushi",
@@ -13248,7 +13278,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-121"
+      "id": "hz-123"
     },
     {
       "chainId": "hamazushi",
@@ -13263,7 +13293,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-122"
+      "id": "hz-124"
     },
     {
       "chainId": "hamazushi",
@@ -13278,7 +13308,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-123"
+      "id": "hz-125"
     },
     {
       "chainId": "hamazushi",
@@ -13293,41 +13323,11 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-124"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "煮あなごゆず塩",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 79,
-      "protein": 4,
-      "carbs": 13.5,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-125"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "真あじ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 79,
-      "protein": 4,
-      "carbs": 13.5,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
       "id": "hz-126"
     },
     {
       "chainId": "hamazushi",
-      "name": "炙り宮城県産とろいわし",
+      "name": "煮あなごゆず塩",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -13507,7 +13507,7 @@
     },
     {
       "chainId": "hamazushi",
-      "name": "宮城県産とろいわし漁師漬け",
+      "name": "煮あなご(柚子胡椒のせ)",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -13522,7 +13522,7 @@
     },
     {
       "chainId": "hamazushi",
-      "name": "煮あなご(柚子胡椒のせ)",
+      "name": "生しらす(日本近海産)",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -13537,7 +13537,7 @@
     },
     {
       "chainId": "hamazushi",
-      "name": "生しらす(日本近海産)",
+      "name": "地中海産本鮪頭肉レアステーキ",
       "category": "sushi",
       "categoryGroup": "signature",
       "price": 110,
@@ -13552,21 +13552,6 @@
     },
     {
       "chainId": "hamazushi",
-      "name": "地中海産本鮪頭肉レアステーキ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 84,
-      "protein": 4,
-      "carbs": 14.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-142"
-    },
-    {
-      "chainId": "hamazushi",
       "name": "サーモン・アカイカ二種盛り",
       "category": "sushi",
       "categoryGroup": "signature",
@@ -13578,7 +13563,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-143"
+      "id": "hz-142"
     },
     {
       "chainId": "hamazushi",
@@ -13593,7 +13578,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-144"
+      "id": "hz-143"
     },
     {
       "chainId": "hamazushi",
@@ -13608,22 +13593,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-145"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "真あじ 漁師漬け",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 86,
-      "protein": 4,
-      "carbs": 15.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-146"
+      "id": "hz-144"
     },
     {
       "chainId": "hamazushi",
@@ -13638,7 +13608,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-147"
+      "id": "hz-145"
     },
     {
       "chainId": "hamazushi",
@@ -13653,7 +13623,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-148"
+      "id": "hz-146"
     },
     {
       "chainId": "hamazushi",
@@ -13668,7 +13638,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-149"
+      "id": "hz-147"
     },
     {
       "chainId": "hamazushi",
@@ -13683,7 +13653,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-150"
+      "id": "hz-148"
     },
     {
       "chainId": "hamazushi",
@@ -13698,7 +13668,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-151"
+      "id": "hz-149"
     },
     {
       "chainId": "hamazushi",
@@ -13713,7 +13683,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-152"
+      "id": "hz-150"
     },
     {
       "chainId": "hamazushi",
@@ -13728,7 +13698,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-153"
+      "id": "hz-151"
     },
     {
       "chainId": "hamazushi",
@@ -13743,7 +13713,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-154"
+      "id": "hz-152"
     },
     {
       "chainId": "hamazushi",
@@ -13758,7 +13728,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-155"
+      "id": "hz-153"
     },
     {
       "chainId": "hamazushi",
@@ -13773,7 +13743,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-156"
+      "id": "hz-154"
     },
     {
       "chainId": "hamazushi",
@@ -13788,7 +13758,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-157"
+      "id": "hz-155"
     },
     {
       "chainId": "hamazushi",
@@ -13803,7 +13773,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-158"
+      "id": "hz-156"
     },
     {
       "chainId": "hamazushi",
@@ -13818,7 +13788,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-159"
+      "id": "hz-157"
     },
     {
       "chainId": "hamazushi",
@@ -13833,7 +13803,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-160"
+      "id": "hz-158"
     },
     {
       "chainId": "hamazushi",
@@ -13848,7 +13818,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-161"
+      "id": "hz-159"
     },
     {
       "chainId": "hamazushi",
@@ -13863,7 +13833,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-162"
+      "id": "hz-160"
     },
     {
       "chainId": "hamazushi",
@@ -13878,7 +13848,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-163"
+      "id": "hz-161"
     },
     {
       "chainId": "hamazushi",
@@ -13893,7 +13863,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-164"
+      "id": "hz-162"
     },
     {
       "chainId": "hamazushi",
@@ -13908,7 +13878,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-165"
+      "id": "hz-163"
     },
     {
       "chainId": "hamazushi",
@@ -13923,7 +13893,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-166"
+      "id": "hz-164"
     },
     {
       "chainId": "hamazushi",
@@ -13938,7 +13908,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-167"
+      "id": "hz-165"
     },
     {
       "chainId": "hamazushi",
@@ -13953,7 +13923,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-168"
+      "id": "hz-166"
     },
     {
       "chainId": "hamazushi",
@@ -13968,7 +13938,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-169"
+      "id": "hz-167"
     },
     {
       "chainId": "hamazushi",
@@ -13983,22 +13953,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-170"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "あんきもかにみそ軍艦",
-      "category": "gunkan",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 96,
-      "protein": 4,
-      "carbs": 17.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-171"
+      "id": "hz-168"
     },
     {
       "chainId": "hamazushi",
@@ -14013,7 +13968,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-172"
+      "id": "hz-169"
     },
     {
       "chainId": "hamazushi",
@@ -14028,7 +13983,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-173"
+      "id": "hz-170"
     },
     {
       "chainId": "hamazushi",
@@ -14043,7 +13998,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-174"
+      "id": "hz-171"
     },
     {
       "chainId": "hamazushi",
@@ -14058,7 +14013,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-175"
+      "id": "hz-172"
     },
     {
       "chainId": "hamazushi",
@@ -14073,7 +14028,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-176"
+      "id": "hz-173"
     },
     {
       "chainId": "hamazushi",
@@ -14088,7 +14043,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-177"
+      "id": "hz-174"
     },
     {
       "chainId": "hamazushi",
@@ -14103,7 +14058,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-178"
+      "id": "hz-175"
     },
     {
       "chainId": "hamazushi",
@@ -14118,37 +14073,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-179"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "朝食メニュー 牛カルビ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 98,
-      "protein": 4,
-      "carbs": 18.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-180"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙りえびチーズマヨ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 98,
-      "protein": 4,
-      "carbs": 18.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-181"
+      "id": "hz-176"
     },
     {
       "chainId": "hamazushi",
@@ -14163,7 +14088,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-182"
+      "id": "hz-177"
     },
     {
       "chainId": "hamazushi",
@@ -14178,7 +14103,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-183"
+      "id": "hz-178"
     },
     {
       "chainId": "hamazushi",
@@ -14193,22 +14118,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-184"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "レモンサワー",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 100,
-      "protein": 4,
-      "carbs": 18.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-185"
+      "id": "hz-179"
     },
     {
       "chainId": "hamazushi",
@@ -14223,7 +14133,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-186"
+      "id": "hz-180"
     },
     {
       "chainId": "hamazushi",
@@ -14238,7 +14148,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-187"
+      "id": "hz-181"
     },
     {
       "chainId": "hamazushi",
@@ -14253,7 +14163,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-188"
+      "id": "hz-182"
     },
     {
       "chainId": "hamazushi",
@@ -14268,7 +14178,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-189"
+      "id": "hz-183"
     },
     {
       "chainId": "hamazushi",
@@ -14283,7 +14193,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-190"
+      "id": "hz-184"
     },
     {
       "chainId": "hamazushi",
@@ -14298,7 +14208,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-191"
+      "id": "hz-185"
     },
     {
       "chainId": "hamazushi",
@@ -14313,7 +14223,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-192"
+      "id": "hz-186"
     },
     {
       "chainId": "hamazushi",
@@ -14328,7 +14238,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-193"
+      "id": "hz-187"
     },
     {
       "chainId": "hamazushi",
@@ -14343,22 +14253,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-194"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えんがわ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 104,
-      "protein": 4,
-      "carbs": 19.8,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-195"
+      "id": "hz-188"
     },
     {
       "chainId": "hamazushi",
@@ -14373,7 +14268,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-196"
+      "id": "hz-189"
     },
     {
       "chainId": "hamazushi",
@@ -14388,7 +14283,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-197"
+      "id": "hz-190"
     },
     {
       "chainId": "hamazushi",
@@ -14403,7 +14298,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-198"
+      "id": "hz-191"
     },
     {
       "chainId": "hamazushi",
@@ -14418,7 +14313,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-199"
+      "id": "hz-192"
     },
     {
       "chainId": "hamazushi",
@@ -14433,37 +14328,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-200"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙りえんがわ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 105,
-      "protein": 4,
-      "carbs": 20,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-201"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "えび天握り",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 106,
-      "protein": 4,
-      "carbs": 20.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-202"
+      "id": "hz-193"
     },
     {
       "chainId": "hamazushi",
@@ -14478,7 +14343,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-203"
+      "id": "hz-194"
     },
     {
       "chainId": "hamazushi",
@@ -14493,7 +14358,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-204"
+      "id": "hz-195"
     },
     {
       "chainId": "hamazushi",
@@ -14508,7 +14373,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-205"
+      "id": "hz-196"
     },
     {
       "chainId": "hamazushi",
@@ -14523,37 +14388,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-206"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "梅酒 ストレート",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 106,
-      "protein": 4,
-      "carbs": 20.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-207"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "梅酒 ロック",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 106,
-      "protein": 4,
-      "carbs": 20.3,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-208"
+      "id": "hz-197"
     },
     {
       "chainId": "hamazushi",
@@ -14568,7 +14403,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-209"
+      "id": "hz-198"
     },
     {
       "chainId": "hamazushi",
@@ -14583,7 +14418,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-210"
+      "id": "hz-199"
     },
     {
       "chainId": "hamazushi",
@@ -14598,7 +14433,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-211"
+      "id": "hz-200"
     },
     {
       "chainId": "hamazushi",
@@ -14613,7 +14448,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-212"
+      "id": "hz-201"
     },
     {
       "chainId": "hamazushi",
@@ -14628,7 +14463,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-213"
+      "id": "hz-202"
     },
     {
       "chainId": "hamazushi",
@@ -14643,52 +14478,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-214"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼酎(芋焼酎薩摩宝山) (お湯割り)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 109,
-      "protein": 4,
-      "carbs": 21,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-215"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼酎(芋焼酎薩摩宝山) (ロック)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 109,
-      "protein": 4,
-      "carbs": 21,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-216"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼酎(芋焼酎薩摩宝山) (水割り)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 109,
-      "protein": 4,
-      "carbs": 21,
-      "salt": 0.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-217"
+      "id": "hz-203"
     },
     {
       "chainId": "hamazushi",
@@ -14703,7 +14493,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-218"
+      "id": "hz-204"
     },
     {
       "chainId": "hamazushi",
@@ -14718,7 +14508,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-219"
+      "id": "hz-205"
     },
     {
       "chainId": "hamazushi",
@@ -14734,7 +14524,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-220"
+      "id": "hz-206"
     },
     {
       "chainId": "hamazushi",
@@ -14750,7 +14540,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-221"
+      "id": "hz-207"
     },
     {
       "chainId": "hamazushi",
@@ -14766,7 +14556,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-222"
+      "id": "hz-208"
     },
     {
       "chainId": "hamazushi",
@@ -14782,7 +14572,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-223"
+      "id": "hz-209"
     },
     {
       "chainId": "hamazushi",
@@ -14798,7 +14588,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-224"
+      "id": "hz-210"
     },
     {
       "chainId": "hamazushi",
@@ -14814,7 +14604,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-225"
+      "id": "hz-211"
     },
     {
       "chainId": "hamazushi",
@@ -14830,7 +14620,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-226"
+      "id": "hz-212"
     },
     {
       "chainId": "hamazushi",
@@ -14846,23 +14636,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-227"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "重ね厳選まぐろ中とろ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 115,
-      "protein": 4,
-      "carbs": 22.5,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-228"
+      "id": "hz-213"
     },
     {
       "chainId": "hamazushi",
@@ -14878,23 +14652,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-229"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙り重ね厳選まぐろ中とろゆず塩",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 115,
-      "protein": 4,
-      "carbs": 22.5,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-230"
+      "id": "hz-214"
     },
     {
       "chainId": "hamazushi",
@@ -14910,7 +14668,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-231"
+      "id": "hz-215"
     },
     {
       "chainId": "hamazushi",
@@ -14926,55 +14684,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-232"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼酎 (麦焼酎白水) (お湯割り)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 117,
-      "protein": 4,
-      "carbs": 23,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-233"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼酎 (麦焼酎白水) (ロック)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 117,
-      "protein": 4,
-      "carbs": 23,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-234"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "焼酎 (麦焼酎白水) (水割り)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 117,
-      "protein": 4,
-      "carbs": 23,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-235"
+      "id": "hz-216"
     },
     {
       "chainId": "hamazushi",
@@ -14990,7 +14700,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-236"
+      "id": "hz-217"
     },
     {
       "chainId": "hamazushi",
@@ -15006,7 +14716,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-237"
+      "id": "hz-218"
     },
     {
       "chainId": "hamazushi",
@@ -15022,7 +14732,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-238"
+      "id": "hz-219"
     },
     {
       "chainId": "hamazushi",
@@ -15038,23 +14748,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-239"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "とろびんちょうマヨアボカド",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 119,
-      "protein": 4,
-      "carbs": 23.5,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-240"
+      "id": "hz-220"
     },
     {
       "chainId": "hamazushi",
@@ -15070,7 +14764,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-241"
+      "id": "hz-221"
     },
     {
       "chainId": "hamazushi",
@@ -15086,7 +14780,39 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-242"
+      "id": "hz-222"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "カルピス",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 110,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-223"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ジンジャーエール",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 110,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-224"
     },
     {
       "chainId": "hamazushi",
@@ -15102,7 +14828,23 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-243"
+      "id": "hz-225"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "メロンソーダ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 110,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-226"
     },
     {
       "chainId": "hamazushi",
@@ -15118,7 +14860,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-244"
+      "id": "hz-227"
     },
     {
       "chainId": "hamazushi",
@@ -15134,7 +14876,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-245"
+      "id": "hz-228"
     },
     {
       "chainId": "hamazushi",
@@ -15150,7 +14892,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-246"
+      "id": "hz-229"
     },
     {
       "chainId": "hamazushi",
@@ -15166,7 +14908,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-247"
+      "id": "hz-230"
     },
     {
       "chainId": "hamazushi",
@@ -15182,7 +14924,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-248"
+      "id": "hz-231"
     },
     {
       "chainId": "hamazushi",
@@ -15198,7 +14940,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-249"
+      "id": "hz-232"
     },
     {
       "chainId": "hamazushi",
@@ -15214,7 +14956,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-250"
+      "id": "hz-233"
     },
     {
       "chainId": "hamazushi",
@@ -15230,7 +14972,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-251"
+      "id": "hz-234"
     },
     {
       "chainId": "hamazushi",
@@ -15246,7 +14988,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-252"
+      "id": "hz-235"
     },
     {
       "chainId": "hamazushi",
@@ -15262,7 +15004,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-253"
+      "id": "hz-236"
     },
     {
       "chainId": "hamazushi",
@@ -15278,7 +15020,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-254"
+      "id": "hz-237"
     },
     {
       "chainId": "hamazushi",
@@ -15294,55 +15036,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-255"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙りサーモンチーズマヨ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 125,
-      "protein": 4,
-      "carbs": 25,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-256"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "あんきも軍艦",
-      "category": "gunkan",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 126,
-      "protein": 4,
-      "carbs": 25.3,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-257"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "サーモンマヨオニオン",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 126,
-      "protein": 4,
-      "carbs": 25.3,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-258"
+      "id": "hz-238"
     },
     {
       "chainId": "hamazushi",
@@ -15358,7 +15052,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-259"
+      "id": "hz-239"
     },
     {
       "chainId": "hamazushi",
@@ -15374,7 +15068,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-260"
+      "id": "hz-240"
     },
     {
       "chainId": "hamazushi",
@@ -15390,7 +15084,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-261"
+      "id": "hz-241"
     },
     {
       "chainId": "hamazushi",
@@ -15406,7 +15100,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-262"
+      "id": "hz-242"
     },
     {
       "chainId": "hamazushi",
@@ -15422,7 +15116,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-263"
+      "id": "hz-243"
     },
     {
       "chainId": "hamazushi",
@@ -15438,7 +15132,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-264"
+      "id": "hz-244"
     },
     {
       "chainId": "hamazushi",
@@ -15454,7 +15148,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-265"
+      "id": "hz-245"
     },
     {
       "chainId": "hamazushi",
@@ -15470,7 +15164,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-266"
+      "id": "hz-246"
     },
     {
       "chainId": "hamazushi",
@@ -15486,7 +15180,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-267"
+      "id": "hz-247"
     },
     {
       "chainId": "hamazushi",
@@ -15502,7 +15196,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-268"
+      "id": "hz-248"
     },
     {
       "chainId": "hamazushi",
@@ -15518,7 +15212,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-269"
+      "id": "hz-249"
     },
     {
       "chainId": "hamazushi",
@@ -15534,7 +15228,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-270"
+      "id": "hz-250"
     },
     {
       "chainId": "hamazushi",
@@ -15550,7 +15244,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-271"
+      "id": "hz-251"
     },
     {
       "chainId": "hamazushi",
@@ -15566,7 +15260,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-272"
+      "id": "hz-252"
     },
     {
       "chainId": "hamazushi",
@@ -15582,7 +15276,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-273"
+      "id": "hz-253"
     },
     {
       "chainId": "hamazushi",
@@ -15598,7 +15292,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-274"
+      "id": "hz-254"
     },
     {
       "chainId": "hamazushi",
@@ -15614,7 +15308,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-275"
+      "id": "hz-255"
     },
     {
       "chainId": "hamazushi",
@@ -15630,7 +15324,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-276"
+      "id": "hz-256"
     },
     {
       "chainId": "hamazushi",
@@ -15646,7 +15340,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-277"
+      "id": "hz-257"
     },
     {
       "chainId": "hamazushi",
@@ -15662,7 +15356,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-278"
+      "id": "hz-258"
     },
     {
       "chainId": "hamazushi",
@@ -15678,7 +15372,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-279"
+      "id": "hz-259"
     },
     {
       "chainId": "hamazushi",
@@ -15694,7 +15388,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-280"
+      "id": "hz-260"
     },
     {
       "chainId": "hamazushi",
@@ -15710,7 +15404,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-281"
+      "id": "hz-261"
     },
     {
       "chainId": "hamazushi",
@@ -15726,7 +15420,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-282"
+      "id": "hz-262"
     },
     {
       "chainId": "hamazushi",
@@ -15742,23 +15436,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-283"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "サーモンマヨアボカド",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 141,
-      "protein": 4,
-      "carbs": 29,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-284"
+      "id": "hz-263"
     },
     {
       "chainId": "hamazushi",
@@ -15774,7 +15452,23 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-285"
+      "id": "hz-264"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "枝豆",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 110,
+      "calories": 141,
+      "protein": 7.1,
+      "carbs": 15.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-265"
     },
     {
       "chainId": "hamazushi",
@@ -15790,7 +15484,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-286"
+      "id": "hz-266"
     },
     {
       "chainId": "hamazushi",
@@ -15806,7 +15500,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-287"
+      "id": "hz-267"
     },
     {
       "chainId": "hamazushi",
@@ -15822,7 +15516,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-288"
+      "id": "hz-268"
     },
     {
       "chainId": "hamazushi",
@@ -15838,7 +15532,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-289"
+      "id": "hz-269"
     },
     {
       "chainId": "hamazushi",
@@ -15854,7 +15548,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-290"
+      "id": "hz-270"
     },
     {
       "chainId": "hamazushi",
@@ -15870,7 +15564,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-291"
+      "id": "hz-271"
     },
     {
       "chainId": "hamazushi",
@@ -15886,7 +15580,55 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-292"
+      "id": "hz-272"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "たこわさ",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 110,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-273"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "厚焼きたまご",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 110,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-274"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "冷ややっこ",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 110,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-275"
     },
     {
       "chainId": "hamazushi",
@@ -15902,7 +15644,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-293"
+      "id": "hz-276"
     },
     {
       "chainId": "hamazushi",
@@ -15918,23 +15660,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-294"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "炙りたまごチーズマヨ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 155,
-      "protein": 4,
-      "carbs": 32.5,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-295"
+      "id": "hz-277"
     },
     {
       "chainId": "hamazushi",
@@ -15950,7 +15676,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-296"
+      "id": "hz-278"
     },
     {
       "chainId": "hamazushi",
@@ -15966,7 +15692,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-297"
+      "id": "hz-279"
     },
     {
       "chainId": "hamazushi",
@@ -15982,7 +15708,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-298"
+      "id": "hz-280"
     },
     {
       "chainId": "hamazushi",
@@ -15998,7 +15724,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-299"
+      "id": "hz-281"
     },
     {
       "chainId": "hamazushi",
@@ -16014,7 +15740,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-300"
+      "id": "hz-282"
     },
     {
       "chainId": "hamazushi",
@@ -16030,7 +15756,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-301"
+      "id": "hz-283"
     },
     {
       "chainId": "hamazushi",
@@ -16046,7 +15772,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-302"
+      "id": "hz-284"
     },
     {
       "chainId": "hamazushi",
@@ -16062,7 +15788,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-303"
+      "id": "hz-285"
     },
     {
       "chainId": "hamazushi",
@@ -16078,7 +15804,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-304"
+      "id": "hz-286"
     },
     {
       "chainId": "hamazushi",
@@ -16094,7 +15820,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-305"
+      "id": "hz-287"
     },
     {
       "chainId": "hamazushi",
@@ -16110,7 +15836,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-306"
+      "id": "hz-288"
     },
     {
       "chainId": "hamazushi",
@@ -16126,7 +15852,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-307"
+      "id": "hz-289"
     },
     {
       "chainId": "hamazushi",
@@ -16142,7 +15868,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-308"
+      "id": "hz-290"
     },
     {
       "chainId": "hamazushi",
@@ -16158,7 +15884,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-309"
+      "id": "hz-291"
     },
     {
       "chainId": "hamazushi",
@@ -16174,7 +15900,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-310"
+      "id": "hz-292"
     },
     {
       "chainId": "hamazushi",
@@ -16190,7 +15916,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-311"
+      "id": "hz-293"
     },
     {
       "chainId": "hamazushi",
@@ -16206,7 +15932,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-312"
+      "id": "hz-294"
     },
     {
       "chainId": "hamazushi",
@@ -16222,7 +15948,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-313"
+      "id": "hz-295"
     },
     {
       "chainId": "hamazushi",
@@ -16238,7 +15964,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-314"
+      "id": "hz-296"
     },
     {
       "chainId": "hamazushi",
@@ -16254,7 +15980,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-315"
+      "id": "hz-297"
     },
     {
       "chainId": "hamazushi",
@@ -16270,7 +15996,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-316"
+      "id": "hz-298"
     },
     {
       "chainId": "hamazushi",
@@ -16286,39 +16012,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-317"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "晴雲 金勝山",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 193,
-      "protein": 4,
-      "carbs": 42,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-318"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "晴雲 金勝山(熱燗)",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 193,
-      "protein": 4,
-      "carbs": 42,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-319"
+      "id": "hz-299"
     },
     {
       "chainId": "hamazushi",
@@ -16334,7 +16028,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-320"
+      "id": "hz-300"
     },
     {
       "chainId": "hamazushi",
@@ -16350,7 +16044,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-321"
+      "id": "hz-301"
     },
     {
       "chainId": "hamazushi",
@@ -16366,7 +16060,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-322"
+      "id": "hz-302"
     },
     {
       "chainId": "hamazushi",
@@ -16382,23 +16076,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-323"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "キャラメルモンブラン",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 199,
-      "protein": 4,
-      "carbs": 43.5,
-      "salt": 0.3,
-      "tags": [
-        "value",
-        "low-calorie"
-      ],
-      "id": "hz-324"
+      "id": "hz-303"
     },
     {
       "chainId": "hamazushi",
@@ -16414,7 +16092,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-325"
+      "id": "hz-304"
     },
     {
       "chainId": "hamazushi",
@@ -16430,7 +16108,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-326"
+      "id": "hz-305"
     },
     {
       "chainId": "hamazushi",
@@ -16446,7 +16124,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-327"
+      "id": "hz-306"
     },
     {
       "chainId": "hamazushi",
@@ -16462,7 +16140,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-328"
+      "id": "hz-307"
     },
     {
       "chainId": "hamazushi",
@@ -16478,37 +16156,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-329"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "吟醸生酒 晴雲",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 321,
-      "protein": 4,
-      "carbs": 74,
-      "salt": 0.3,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-330"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "甘熟王バナナとチョコのパルフェ",
-      "category": "sushi",
-      "categoryGroup": "signature",
-      "price": 110,
-      "calories": 358,
-      "protein": 4,
-      "carbs": 83.3,
-      "salt": 0.3,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-331"
+      "id": "hz-308"
     },
     {
       "chainId": "hamazushi",
@@ -16523,7 +16171,7 @@
       "tags": [
         "value"
       ],
-      "id": "hz-332"
+      "id": "hz-309"
     },
     {
       "chainId": "hamazushi",
@@ -16538,7 +16186,7 @@
       "tags": [
         "value"
       ],
-      "id": "hz-333"
+      "id": "hz-310"
     },
     {
       "chainId": "hamazushi",
@@ -16553,7 +16201,296 @@
       "tags": [
         "value"
       ],
-      "id": "hz-334"
+      "id": "hz-311"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えび天",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 54,
+      "protein": 4,
+      "carbs": 7.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-312"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "サーモンアボカド",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-313"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "とびっこ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-314"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ねぎとろ",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-315"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ねぎとろ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-316"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "焼きハラスアボカド",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-317"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "数の子軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-318"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "粗びき生えび軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-319"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "甘えび",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 64,
+      "protein": 4,
+      "carbs": 9.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-320"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "生えび",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 65,
+      "protein": 4,
+      "carbs": 10,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-321"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はまアイス (バニラ)",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 132,
+      "calories": 101,
+      "protein": 2,
+      "carbs": 18.2,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-322"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えび天握り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 132,
+      "calories": 106,
+      "protein": 4,
+      "carbs": 20.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-323"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はまアイス (チョコレート)",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 132,
+      "calories": 108,
+      "protein": 2.2,
+      "carbs": 19.4,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-324"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はまアイス 果実の恵み ストロベリー",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 132,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-325"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はまカフェアイス",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 143,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-326"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あおさの味噌汁",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 143,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-327"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あさりのだし汁味噌汁",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 143,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-328"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あさりの赤だし",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 143,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-329"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はまカフェ",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 143,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "value",
+        "low-calorie"
+      ],
+      "id": "hz-330"
     },
     {
       "chainId": "hamazushi",
@@ -16568,7 +16505,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-335"
+      "id": "hz-331"
     },
     {
       "chainId": "hamazushi",
@@ -16583,7 +16520,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-336"
+      "id": "hz-332"
     },
     {
       "chainId": "hamazushi",
@@ -16598,7 +16535,1072 @@
       "tags": [
         "low-calorie"
       ],
+      "id": "hz-333"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ほたて(北海道・青森県産)",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 34,
+      "protein": 4,
+      "carbs": 2.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-334"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙りほたて(北海道・青森県産)",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 34,
+      "protein": 4,
+      "carbs": 2.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-335"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "冷凍ぶどう",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 38,
+      "protein": 2,
+      "carbs": 12,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-336"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ローストビーフ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 46,
+      "protein": 4,
+      "carbs": 5.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
       "id": "hz-337"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "いくら",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 48,
+      "protein": 4,
+      "carbs": 5.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-338"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ほたてレアステーキ(北海道・青森県産)",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 50,
+      "protein": 4,
+      "carbs": 6.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-339"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "北海道産大切りさくらます",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 50,
+      "protein": 4,
+      "carbs": 6.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-340"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あなご一本握り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-341"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "カニ味噌軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-342"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "しまあじ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-343"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "つぶ貝",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-344"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "とろサーモンハラス",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-345"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ほたるいか軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-346"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "やりいか",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-347"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ローストビーフマヨオニオン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-348"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ローストビーフユッケ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-349"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "活〆真鯛",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-350"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "牛タタキ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-351"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "牛タタキオニオン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-352"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "牛塩カルビ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-353"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "厚切りねぎとろ",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-354"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "合鴨ロース",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-355"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "煮穴子一本握り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-356"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "旬の地魚",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-357"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真いかげそ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-358"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真鯛ゆず塩",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-359"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真鯛昆布〆",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-360"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "生しらす軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-361"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "特製漬けとろサーモン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-362"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "北海道日高産真昆布使用 とろろ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-363"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙りとろサーモンレモン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-364"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り牛塩カルビ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-365"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り合鴨ロース",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-366"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真いか",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 66,
+      "protein": 4,
+      "carbs": 10.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-367"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真だこ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 68,
+      "protein": 4,
+      "carbs": 10.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-368"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "赤貝",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 68,
+      "protein": 4,
+      "carbs": 10.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-369"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "福井県水揚げ漬けほたるいか",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 68,
+      "protein": 4,
+      "carbs": 10.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-370"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "厳選まぐろ中とろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 71,
+      "protein": 4,
+      "carbs": 11.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-371"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り厳選まぐろ中とろゆず塩",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 71,
+      "protein": 4,
+      "carbs": 11.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-372"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "特製漬け中とろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 74,
+      "protein": 4,
+      "carbs": 12.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-373"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "宮城県産とろいわし",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 78,
+      "protein": 4,
+      "carbs": 13.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-374"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真あじ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 79,
+      "protein": 4,
+      "carbs": 13.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-375"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り宮城県産とろいわし",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 79,
+      "protein": 4,
+      "carbs": 13.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-376"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "宮城県産とろいわし漁師漬け",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 84,
+      "protein": 4,
+      "carbs": 14.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-377"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真あじ 漁師漬け",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 86,
+      "protein": 4,
+      "carbs": 15.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-378"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あんきもかにみそ軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 96,
+      "protein": 4,
+      "carbs": 17.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-379"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙りえびチーズマヨ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 98,
+      "protein": 4,
+      "carbs": 18.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-380"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えんがわ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 104,
+      "protein": 4,
+      "carbs": 19.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-381"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙りえんがわ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 105,
+      "protein": 4,
+      "carbs": 20,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-382"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "とろびんちょうマヨアボカド",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 119,
+      "protein": 4,
+      "carbs": 23.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-383"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あいすもなか",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-384"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あまおうジュレ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-385"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "カルピスシャーベット",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-386"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "くずもち",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-387"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "クリームブリュレ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-388"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "まっちゃプリン",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-389"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "メロンジュレ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-390"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "わらびもち",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-391"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "濃厚チーズケーキ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-392"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙りサーモンチーズマヨ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 125,
+      "protein": 4,
+      "carbs": 25,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-393"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あんきも軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 126,
+      "protein": 4,
+      "carbs": 25.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-394"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "サーモンマヨオニオン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 126,
+      "protein": 4,
+      "carbs": 25.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-395"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "サーモンマヨアボカド",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 141,
+      "protein": 4,
+      "carbs": 29,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-396"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "甘えびの唐揚げ握り",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-397"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "玉ねぎサラダ",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 176,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-398"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙りたまごチーズマヨ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 176,
+      "calories": 155,
+      "protein": 4,
+      "carbs": 32.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-399"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "北海道ソフトクリーム",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 198,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-400"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "北海道ソフトクリーム（カップ）",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 198,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-401"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "フライドポテト",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 209,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-402"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "枝豆コロッケ",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 209,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-403"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "北海道ミルクシェイク",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 209,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-404"
     },
     {
       "chainId": "hamazushi",
@@ -16613,22 +17615,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-338"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "冷凍ぶどう",
-      "category": "dessert",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 38,
-      "protein": 2,
-      "carbs": 12,
-      "salt": 0.2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-339"
+      "id": "hz-405"
     },
     {
       "chainId": "hamazushi",
@@ -16643,7 +17630,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-340"
+      "id": "hz-406"
     },
     {
       "chainId": "hamazushi",
@@ -16658,7 +17645,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-341"
+      "id": "hz-407"
     },
     {
       "chainId": "hamazushi",
@@ -16673,7 +17660,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-342"
+      "id": "hz-408"
     },
     {
       "chainId": "hamazushi",
@@ -16688,7 +17675,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-343"
+      "id": "hz-409"
     },
     {
       "chainId": "hamazushi",
@@ -16703,7 +17690,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-344"
+      "id": "hz-410"
     },
     {
       "chainId": "hamazushi",
@@ -16718,7 +17705,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-345"
+      "id": "hz-411"
     },
     {
       "chainId": "hamazushi",
@@ -16733,7 +17720,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-346"
+      "id": "hz-412"
     },
     {
       "chainId": "hamazushi",
@@ -16748,7 +17735,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-347"
+      "id": "hz-413"
     },
     {
       "chainId": "hamazushi",
@@ -16763,7 +17750,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-348"
+      "id": "hz-414"
     },
     {
       "chainId": "hamazushi",
@@ -16778,7 +17765,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-349"
+      "id": "hz-415"
     },
     {
       "chainId": "hamazushi",
@@ -16793,7 +17780,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-350"
+      "id": "hz-416"
     },
     {
       "chainId": "hamazushi",
@@ -16808,7 +17795,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-351"
+      "id": "hz-417"
     },
     {
       "chainId": "hamazushi",
@@ -16823,7 +17810,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-352"
+      "id": "hz-418"
     },
     {
       "chainId": "hamazushi",
@@ -16838,22 +17825,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-353"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "はまアイス (バニラ)",
-      "category": "dessert",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 101,
-      "protein": 2,
-      "carbs": 18.2,
-      "salt": 0.2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-354"
+      "id": "hz-419"
     },
     {
       "chainId": "hamazushi",
@@ -16868,7 +17840,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-355"
+      "id": "hz-420"
     },
     {
       "chainId": "hamazushi",
@@ -16883,67 +17855,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-356"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "はまアイス (チョコレート)",
-      "category": "dessert",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 108,
-      "protein": 2.2,
-      "carbs": 19.4,
-      "salt": 0.2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-357"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "大えびフライ握り",
-      "category": "side",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 111,
-      "protein": 5.6,
-      "carbs": 12.2,
-      "salt": 0.8,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-358"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "大えびフライ握り(お好みソース)",
-      "category": "side",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 115,
-      "protein": 5.8,
-      "carbs": 12.7,
-      "salt": 0.8,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-359"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "グレープフルーツサワー",
-      "category": "dessert",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 118,
-      "protein": 2.4,
-      "carbs": 21.2,
-      "salt": 0.2,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-360"
+      "id": "hz-421"
     },
     {
       "chainId": "hamazushi",
@@ -16958,7 +17870,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-361"
+      "id": "hz-422"
     },
     {
       "chainId": "hamazushi",
@@ -16973,7 +17885,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-362"
+      "id": "hz-423"
     },
     {
       "chainId": "hamazushi",
@@ -16988,7 +17900,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-363"
+      "id": "hz-424"
     },
     {
       "chainId": "hamazushi",
@@ -17003,22 +17915,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-364"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "枝豆",
-      "category": "side",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 141,
-      "protein": 7.1,
-      "carbs": 15.5,
-      "salt": 1.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-365"
+      "id": "hz-425"
     },
     {
       "chainId": "hamazushi",
@@ -17033,7 +17930,22 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-366"
+      "id": "hz-426"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "鯛だしおじや",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 220,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-427"
     },
     {
       "chainId": "hamazushi",
@@ -17048,22 +17960,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-367"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "大えびフライ握り(タルタルソース)",
-      "category": "side",
-      "categoryGroup": "side",
-      "price": 220,
-      "calories": 156,
-      "protein": 7.8,
-      "carbs": 17.2,
-      "salt": 1.3,
-      "tags": [
-        "low-calorie"
-      ],
-      "id": "hz-368"
+      "id": "hz-428"
     },
     {
       "chainId": "hamazushi",
@@ -17078,7 +17975,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-369"
+      "id": "hz-429"
     },
     {
       "chainId": "hamazushi",
@@ -17093,7 +17990,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-370"
+      "id": "hz-430"
     },
     {
       "chainId": "hamazushi",
@@ -17108,7 +18005,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-371"
+      "id": "hz-431"
     },
     {
       "chainId": "hamazushi",
@@ -17123,7 +18020,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-372"
+      "id": "hz-432"
     },
     {
       "chainId": "hamazushi",
@@ -17138,7 +18035,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-373"
+      "id": "hz-433"
     },
     {
       "chainId": "hamazushi",
@@ -17153,7 +18050,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-374"
+      "id": "hz-434"
     },
     {
       "chainId": "hamazushi",
@@ -17168,7 +18065,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-375"
+      "id": "hz-435"
     },
     {
       "chainId": "hamazushi",
@@ -17184,7 +18081,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-376"
+      "id": "hz-436"
     },
     {
       "chainId": "hamazushi",
@@ -17200,7 +18097,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-377"
+      "id": "hz-437"
     },
     {
       "chainId": "hamazushi",
@@ -17216,7 +18113,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-378"
+      "id": "hz-438"
     },
     {
       "chainId": "hamazushi",
@@ -17232,7 +18129,7 @@
         "value",
         "low-calorie"
       ],
-      "id": "hz-379"
+      "id": "hz-439"
     },
     {
       "chainId": "hamazushi",
@@ -17248,7 +18145,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-380"
+      "id": "hz-440"
     },
     {
       "chainId": "hamazushi",
@@ -17264,7 +18161,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-381"
+      "id": "hz-441"
     },
     {
       "chainId": "hamazushi",
@@ -17280,7 +18177,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-382"
+      "id": "hz-442"
     },
     {
       "chainId": "hamazushi",
@@ -17296,7 +18193,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-383"
+      "id": "hz-443"
     },
     {
       "chainId": "hamazushi",
@@ -17311,7 +18208,7 @@
       "tags": [
         "value"
       ],
-      "id": "hz-384"
+      "id": "hz-444"
     },
     {
       "chainId": "hamazushi",
@@ -17326,7 +18223,7 @@
       "tags": [
         "value"
       ],
-      "id": "hz-385"
+      "id": "hz-445"
     },
     {
       "chainId": "hamazushi",
@@ -17341,7 +18238,7 @@
       "tags": [
         "value"
       ],
-      "id": "hz-386"
+      "id": "hz-446"
     },
     {
       "chainId": "hamazushi",
@@ -17357,7 +18254,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-387"
+      "id": "hz-447"
     },
     {
       "chainId": "hamazushi",
@@ -17374,7 +18271,7 @@
         "high-protein",
         "balanced"
       ],
-      "id": "hz-388"
+      "id": "hz-448"
     },
     {
       "chainId": "hamazushi",
@@ -17391,7 +18288,7 @@
         "high-protein",
         "balanced"
       ],
-      "id": "hz-389"
+      "id": "hz-449"
     },
     {
       "chainId": "hamazushi",
@@ -17408,7 +18305,232 @@
         "high-protein",
         "balanced"
       ],
-      "id": "hz-390"
+      "id": "hz-450"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "桜えび軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 231,
+      "calories": 65,
+      "protein": 4,
+      "carbs": 10,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-451"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "まぐろ中とろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-452"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "甘えびのから揚げ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-453"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "牛たん握り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-454"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "金目鯛",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-455"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "煮穴子",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-456"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "赤えび",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-457"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大切りサーモン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-458"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大切りサーモンゆず塩",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-459"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大切りとろサーモン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-460"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大切りとろびんちょう",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-461"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "天然鳴門鯛",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-462"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り上穴子一本握り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-463"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り大切りサーモン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 242,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-464"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はまうまプリン",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 242,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-465"
     },
     {
       "chainId": "hamazushi",
@@ -17423,7 +18545,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-391"
+      "id": "hz-466"
     },
     {
       "chainId": "hamazushi",
@@ -17438,7 +18560,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-392"
+      "id": "hz-467"
     },
     {
       "chainId": "hamazushi",
@@ -17453,7 +18575,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-393"
+      "id": "hz-468"
     },
     {
       "chainId": "hamazushi",
@@ -17468,7 +18590,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-394"
+      "id": "hz-469"
     },
     {
       "chainId": "hamazushi",
@@ -17483,7 +18605,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-395"
+      "id": "hz-470"
     },
     {
       "chainId": "hamazushi",
@@ -17498,24 +18620,7 @@
       "tags": [
         "low-calorie"
       ],
-      "id": "hz-396"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "朝食メニュー 朝ラーメン(醤油)",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 276,
-      "protein": 16.6,
-      "carbs": 46.9,
-      "salt": 2.3,
-      "tags": [
-        "value",
-        "low-calorie",
-        "balanced"
-      ],
-      "id": "hz-397"
+      "id": "hz-471"
     },
     {
       "chainId": "hamazushi",
@@ -17532,7 +18637,7 @@
         "low-calorie",
         "balanced"
       ],
-      "id": "hz-398"
+      "id": "hz-472"
     },
     {
       "chainId": "hamazushi",
@@ -17548,7 +18653,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-399"
+      "id": "hz-473"
     },
     {
       "chainId": "hamazushi",
@@ -17564,7 +18669,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-400"
+      "id": "hz-474"
     },
     {
       "chainId": "hamazushi",
@@ -17580,23 +18685,7 @@
         "value",
         "balanced"
       ],
-      "id": "hz-401"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "（麺） 朝ラーメン(醤油)煮玉子のせ",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 342,
-      "protein": 20.5,
-      "carbs": 58.1,
-      "salt": 2.9,
-      "tags": [
-        "value",
-        "balanced"
-      ],
-      "id": "hz-402"
+      "id": "hz-475"
     },
     {
       "chainId": "hamazushi",
@@ -17611,37 +18700,7 @@
       "tags": [
         "value"
       ],
-      "id": "hz-403"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "朝ラーメン(醤油)チャーシュー4枚のせ",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 380,
-      "protein": 22.8,
-      "carbs": 64.6,
-      "salt": 3.2,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-404"
-    },
-    {
-      "chainId": "hamazushi",
-      "name": "特製とんこつ醤油ラーメン",
-      "category": "noodle",
-      "categoryGroup": "side",
-      "price": 260,
-      "calories": 383,
-      "protein": 23,
-      "carbs": 65.1,
-      "salt": 3.2,
-      "tags": [
-        "value"
-      ],
-      "id": "hz-405"
+      "id": "hz-476"
     },
     {
       "chainId": "hamazushi",
@@ -17656,39 +18715,427 @@
       "tags": [
         "value"
       ],
-      "id": "hz-406"
+      "id": "hz-477"
     },
     {
       "chainId": "hamazushi",
-      "name": "特製旨辛とんこつ醤油ラーメン",
-      "category": "noodle",
+      "name": "あまおうのあいすもなか",
+      "category": "dessert",
       "categoryGroup": "side",
-      "price": 260,
-      "calories": 432,
-      "protein": 25.9,
-      "carbs": 73.4,
-      "salt": 3.6,
+      "price": 297,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
       "tags": [
-        "value",
-        "high-protein"
+        "low-calorie"
       ],
-      "id": "hz-407"
+      "id": "hz-478"
     },
     {
       "chainId": "hamazushi",
-      "name": "焼豚増量 特製とんこつ醤油ラーメン",
-      "category": "noodle",
+      "name": "あまおう苺のケーキ",
+      "category": "dessert",
       "categoryGroup": "side",
-      "price": 260,
-      "calories": 453,
-      "protein": 27.2,
-      "carbs": 77,
-      "salt": 3.8,
+      "price": 297,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
       "tags": [
-        "value",
-        "high-protein"
+        "low-calorie"
       ],
-      "id": "hz-408"
+      "id": "hz-479"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ショコラケーキ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 297,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-480"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はまアイスフロート メロンソーダ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 297,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-481"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ブルーベリーレアチーズケーキ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 297,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-482"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "キャラメルモンブラン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 297,
+      "calories": 199,
+      "protein": 4,
+      "carbs": 43.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-483"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "うに軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 38,
+      "protein": 4,
+      "carbs": 3.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-484"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "うにいくら軍艦",
+      "category": "gunkan",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 43,
+      "protein": 4,
+      "carbs": 4.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-485"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "うなぎ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-486"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えび天重ね握り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-487"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "かにの贅沢盛り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-488"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ねとろサーモン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-489"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ねほたて",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-490"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ねまぐろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-491"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ねまぐろ中とろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-492"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね大切りサーモン",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-493"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "真鯛のお造り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-494"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大盛りいくら",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-495"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "地中海産本鮪大とろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 71,
+      "protein": 4,
+      "carbs": 11.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-496"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り地中海産本鮪大とろゆず塩",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 71,
+      "protein": 4,
+      "carbs": 11.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-497"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大えびフライ握り",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 319,
+      "calories": 111,
+      "protein": 5.6,
+      "carbs": 12.2,
+      "salt": 0.8,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-498"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね厳選まぐろ中とろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 115,
+      "protein": 4,
+      "carbs": 22.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-499"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大えびフライ握り(お好みソース)",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 319,
+      "calories": 115,
+      "protein": 5.8,
+      "carbs": 12.7,
+      "salt": 0.8,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-500"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "炙り重ね厳選まぐろ中とろゆず塩",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 319,
+      "calories": 115,
+      "protein": 4,
+      "carbs": 22.5,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-501"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あまおうのクレープ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 319,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-502"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "はちみつキャラメルナッツのクレープ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 319,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-503"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "蒸しずわいがに",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 319,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-504"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大えびフライ握り(タルタルソース)",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 319,
+      "calories": 156,
+      "protein": 7.8,
+      "carbs": 17.2,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-505"
     },
     {
       "chainId": "hamazushi",
@@ -17704,7 +19151,7 @@
         "low-calorie",
         "balanced"
       ],
-      "id": "hz-409"
+      "id": "hz-506"
     },
     {
       "chainId": "hamazushi",
@@ -17719,7 +19166,7 @@
       "tags": [
         "value"
       ],
-      "id": "hz-410"
+      "id": "hz-507"
     },
     {
       "chainId": "hamazushi",
@@ -17734,7 +19181,408 @@
       "tags": [
         "value"
       ],
-      "id": "hz-411"
+      "id": "hz-508"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね金目鯛",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 363,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-509"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね赤えび",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 363,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-510"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね大うなぎ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 363,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-511"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね天然鳴門鯛",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 363,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-512"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね本鮪中とろ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 363,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-513"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "重ね炙り上穴子",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 363,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-514"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ジューシーミートボール（6個）",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-515"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "フライドポテト（BIG）",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-516"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "鶏のからあげ（6個）",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-517"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "軟骨のからあげ（8個）",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-518"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "えび天うどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 300,
+      "protein": 18,
+      "carbs": 51,
+      "salt": 2.5,
+      "tags": [
+        "balanced"
+      ],
+      "id": "hz-519"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "カレーうどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 300,
+      "protein": 18,
+      "carbs": 51,
+      "salt": 2.5,
+      "tags": [
+        "balanced"
+      ],
+      "id": "hz-520"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "特製とんこつラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 300,
+      "protein": 18,
+      "carbs": 51,
+      "salt": 2.5,
+      "tags": [
+        "balanced"
+      ],
+      "id": "hz-521"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "肉うどん",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 300,
+      "protein": 18,
+      "carbs": 51,
+      "salt": 2.5,
+      "tags": [
+        "balanced"
+      ],
+      "id": "hz-522"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "特製とんこつ醤油ラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 396,
+      "calories": 383,
+      "protein": 23,
+      "carbs": 65.1,
+      "salt": 3.2,
+      "tags": [],
+      "id": "hz-523"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大うなぎ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 429,
+      "calories": 60,
+      "protein": 4,
+      "carbs": 8.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-524"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "直火焼き牛たん握り",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 429,
+      "calories": 72,
+      "protein": 4,
+      "carbs": 11.8,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-525"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "あまおうの和風パフェ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 429,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-526"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "チョコレートパフェ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 429,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-527"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ドルチェパフェ チョコ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 429,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-528"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "ドルチェパフェ 苺",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 429,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-529"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "贅沢苺パフェ",
+      "category": "dessert",
+      "categoryGroup": "side",
+      "price": 429,
+      "calories": 120,
+      "protein": 2.4,
+      "carbs": 21.6,
+      "salt": 0.2,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-530"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "直火焼き牛たん握り(ねぎ盛り)",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 473,
+      "calories": 74,
+      "protein": 4,
+      "carbs": 12.3,
+      "salt": 0.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-531"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "甘熟王バナナとチョコのパルフェ",
+      "category": "sushi",
+      "categoryGroup": "signature",
+      "price": 473,
+      "calories": 358,
+      "protein": 4,
+      "carbs": 83.3,
+      "salt": 0.3,
+      "tags": [],
+      "id": "hz-532"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "特製旨辛とんこつ醤油ラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 506,
+      "calories": 432,
+      "protein": 25.9,
+      "carbs": 73.4,
+      "salt": 3.6,
+      "tags": [
+        "high-protein"
+      ],
+      "id": "hz-533"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "焼豚増量 特製とんこつ醤油ラーメン",
+      "category": "noodle",
+      "categoryGroup": "side",
+      "price": 506,
+      "calories": 453,
+      "protein": 27.2,
+      "carbs": 77,
+      "salt": 3.8,
+      "tags": [
+        "high-protein"
+      ],
+      "id": "hz-534"
+    },
+    {
+      "chainId": "hamazushi",
+      "name": "大えびフライ（タルタルソース）",
+      "category": "side",
+      "categoryGroup": "side",
+      "price": 539,
+      "calories": 150,
+      "protein": 7.5,
+      "carbs": 16.5,
+      "salt": 1.3,
+      "tags": [
+        "low-calorie"
+      ],
+      "id": "hz-535"
     },
     {
       "chainId": "cocoichi",

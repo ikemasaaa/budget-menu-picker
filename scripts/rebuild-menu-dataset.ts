@@ -58,7 +58,15 @@ type NutritionRow = {
   salt: number | null;
 };
 
+type HamazushiScrapedEntry = {
+  name: string;
+  price: number;
+  rawCategory: string;
+  category: string;
+};
+
 const DATASET_PATH = new URL("../data/menu-dataset.json", import.meta.url);
+const HAMAZUSHI_SCRAPED_PATH = new URL("../data/hamazushi-scraped.tsv", import.meta.url);
 const TARGET_DATE = "2026-04-06";
 const ACTIVE_CHAIN_IDS = new Set([
   "yoshinoya",
@@ -319,7 +327,7 @@ function makeItem(item: Omit<ItemRecord, "id" | "tags">): Omit<ItemRecord, "id">
   return normalized;
 }
 
-async function readUtf8(path: string): Promise<string> {
+async function readUtf8(path: string | URL): Promise<string> {
   return readFile(path, "utf8");
 }
 
@@ -1310,6 +1318,100 @@ function estimateHamaPrice(name: string, category: string): number {
   return name.includes("一貫") ? 165 : 110;
 }
 
+function cleanHamazushiName(value: string): string {
+  return cleanDisplayName(value)
+    .replace(/^[（(](?:にぎり|軍艦|つつみ)[)）]\s*/u, "")
+    .replace(/^(?:おすすめ|にぎり|軍艦)\s+/, "")
+    .trim();
+}
+
+function normalizeHamazushiName(value: string): string {
+  return normalizeMatchName(cleanHamazushiName(value));
+}
+
+function mapHamazushiScrapedCategory(rawCategory: string, name: string): string {
+  const inferred = inferSushiCategory(name);
+
+  if (rawCategory === "gunkan") {
+    return "gunkan";
+  }
+  if (rawCategory === "dessert" || rawCategory === "shifuku") {
+    return "dessert";
+  }
+  if (rawCategory === "side") {
+    return inferred === "dessert" || inferred === "noodle" ? inferred : "side";
+  }
+  if (rawCategory === "nigiri" || rawCategory === "nikunigiri") {
+    return "sushi";
+  }
+  if (rawCategory === "zeitaku") {
+    return inferred === "gunkan" || inferred === "side" || inferred === "dessert" || inferred === "noodle"
+      ? inferred
+      : "sushi";
+  }
+  return inferred;
+}
+
+function estimateHamazushiCalories(category: string): number {
+  if (category === "noodle") {
+    return 300;
+  }
+  if (category === "side") {
+    return 150;
+  }
+  if (category === "dessert") {
+    return 120;
+  }
+  return 60;
+}
+
+function parseHamazushiScrapedEntries(text: string): HamazushiScrapedEntry[] {
+  return parseTabSeparated(text)
+    .map((record) => {
+      const name = cleanHamazushiName(record.name ?? "");
+      const price = Number(record.price ?? "0");
+      const rawCategory = record.category ?? "";
+      return {
+        name,
+        price,
+        rawCategory,
+        category: mapHamazushiScrapedCategory(rawCategory, name),
+      };
+    })
+    .filter((entry) => entry.name && Number.isFinite(entry.price));
+}
+
+function buildHamazushiPriceLookup(entries: HamazushiScrapedEntry[]) {
+  const lookup = new Map<string, HamazushiScrapedEntry[]>();
+
+  for (const entry of entries) {
+    const key = normalizeHamazushiName(entry.name);
+    const bucket = lookup.get(key) ?? [];
+    bucket.push(entry);
+    lookup.set(key, bucket);
+  }
+
+  return lookup;
+}
+
+function findHamazushiScrapedEntry(
+  lookup: Map<string, HamazushiScrapedEntry[]>,
+  name: string,
+  category: string,
+): HamazushiScrapedEntry | null {
+  const entries = lookup.get(normalizeHamazushiName(name));
+  if (!entries || entries.length === 0) {
+    return null;
+  }
+
+  const exactCategoryEntries = entries.filter((entry) => entry.category === category);
+  if (exactCategoryEntries.length > 0) {
+    return exactCategoryEntries.find((entry) => entry.rawCategory !== "limited") ?? exactCategoryEntries[0] ?? null;
+  }
+
+  return entries.find((entry) => entry.rawCategory !== "limited") ?? entries[0] ?? null;
+}
+
 function estimateSushiroPrice(name: string, category: string): number {
   if (category === "noodle") {
     if (name.includes("ラーメン") || name.includes("ワンタンメン")) return 490;
@@ -1374,8 +1476,13 @@ function parseKurasushiItems(text: string): Omit<ItemRecord, "id">[] {
   return dedupeItems(items);
 }
 
-function parseHamazushiItems(text: string): Omit<ItemRecord, "id">[] {
+async function parseHamazushiItems(text: string, scrapedTsvPath: string | URL): Promise<Omit<ItemRecord, "id">[]> {
   const items: Omit<ItemRecord, "id">[] = [];
+  const scrapedEntries = parseHamazushiScrapedEntries(await readUtf8(scrapedTsvPath));
+  const priceLookup = buildHamazushiPriceLookup(scrapedEntries);
+  const excludedHamazushiNamePattern =
+    /(コーヒー|珈琲|カフェラテ|ラテ|茶|コーラ|サイダー|ジュース|ウォーター|ビール|アルコール|ハイボール|オールフリー|ドリンク|レモンサワー|グレープフルーツサワー|梅酒|焼酎|冷酒|日本酒|晴雲|朝ラーメン|朝食メニュー)/;
+  const seen = new Set<string>();
 
   for (const rawLine of text.split(/\r?\n/)) {
     const line = normalizeWhitespace(rawLine);
@@ -1384,23 +1491,29 @@ function parseHamazushiItems(text: string): Omit<ItemRecord, "id">[] {
       continue;
     }
 
-    let name = cleanDisplayName(match[1] ?? "");
+    let name = cleanHamazushiName(match[1] ?? "");
     if (!name || shouldIgnoreStandaloneName(name) || /^(分類|おすすめ|にぎり|軍艦)$/.test(name)) {
       continue;
     }
 
-    name = name.replace(/^(?:おすすめ|にぎり|軍艦)\s+/, "").trim();
     if (
       !name ||
       /(限定|対象|以外|店舗|エリア|セット|追加トッピング|サイドメニュー)/.test(name) ||
-      /(コーヒー|珈琲|カフェラテ|ラテ|茶|コーラ|サイダー|ジュース|ウォーター|ビール|アルコール|ハイボール|オールフリー|ドリンク)/.test(name)
+      excludedHamazushiNamePattern.test(name)
     ) {
       continue;
     }
 
+    const key = normalizeHamazushiName(name);
+    if (seen.has(key)) {
+      continue;
+    }
+    seen.add(key);
+
     const category = inferSushiCategory(name);
     const calories = Number(match[2] ?? "0");
     const estimated = estimateSushiNutrition(category, calories, name.includes("一貫"));
+    const scrapedEntry = findHamazushiScrapedEntry(priceLookup, name, category);
 
     items.push(
       makeItem({
@@ -1408,7 +1521,42 @@ function parseHamazushiItems(text: string): Omit<ItemRecord, "id">[] {
         name,
         category,
         categoryGroup: category === "side" || category === "dessert" || category === "noodle" ? "side" : "signature",
-        price: estimateHamaPrice(name, category),
+        price: scrapedEntry?.price ?? estimateHamaPrice(name, category),
+        calories,
+        protein: estimated.protein,
+        carbs: estimated.carbs,
+        salt: estimated.salt,
+      }),
+    );
+  }
+
+  for (const entry of scrapedEntries) {
+    if (excludedHamazushiNamePattern.test(entry.name)) {
+      continue;
+    }
+
+    const key = normalizeHamazushiName(entry.name);
+    if (seen.has(key)) {
+      continue;
+    }
+    if (
+      /(コーヒー|珈琲|ラテ|茶|コーラ|サイダー|ジュース|ウォーター|ビール|アルコール|ハイボール|ドリンク|レモンサワー|グレープフルーツサワー|梅酒|焼酎|冷酒|日本酒|晴雲|朝ラーメン|朝食|吟醸|生酒)/.test(
+        entry.name,
+      )
+    ) {
+      continue;
+    }
+    seen.add(key);
+
+    const calories = estimateHamazushiCalories(entry.category);
+    const estimated = estimateSushiNutrition(entry.category, calories, entry.name.includes("一貫"));
+    items.push(
+      makeItem({
+        chainId: "hamazushi",
+        name: entry.name,
+        category: entry.category,
+        categoryGroup: entry.category === "side" || entry.category === "dessert" || entry.category === "noodle" ? "side" : "signature",
+        price: entry.price,
         calories,
         protein: estimated.protein,
         carbs: estimated.carbs,
@@ -1693,7 +1841,7 @@ const mcdonaldsItems = buildMcdonaldsItems(
 );
 const sushiroItems = buildSushiroItems(await readUtf8("/tmp/sushiro_official_web.tsv"));
 const kurasushiItems = parseKurasushiItems(await readUtf8("/tmp/kurasushi_nutrition.txt"));
-const hamazushiItems = parseHamazushiItems(await readUtf8("/tmp/hamazushi_nutrition.txt"));
+const hamazushiItems = await parseHamazushiItems(await readUtf8("/tmp/hamazushi_nutrition.txt"), HAMAZUSHI_SCRAPED_PATH);
 const cocoichiItems = buildCocoichiItems(
   priceSections.get("CoCo壱番屋") ?? new Map(),
   await readUtf8("/tmp/cocoichi_nutrition.txt"),
